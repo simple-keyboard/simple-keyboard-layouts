@@ -1,4 +1,4 @@
-export default {
+const japanese = {
   'default' : [
     '\u308d \u306c \u3075 \u3042 \u3046 \u3048 \u304a \u3084 \u3086 \u3088 \u308f \u307b \u3078 {bksp}',
     '{tab} \u305f \u3066 \u3044 \u3059 \u304b \u3093 \u306a \u306b \u3089 \u305b \u309b \u309c \u3080',
@@ -14,3 +14,5 @@ export default {
     '.com @ {space}'
   ]
 }
+
+export default japanese;

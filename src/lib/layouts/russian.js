@@ -1,4 +1,4 @@
-export default {
+const russian = {
   'default' : [
     "\u0451 1 2 3 4 5 6 7 8 9 0 - = {bksp}",
 		"{tab} \u0439 \u0446 \u0443 \u043a \u0435 \u043d \u0433 \u0448 \u0449 \u0437 \u0445 \u044a \\",
@@ -14,3 +14,5 @@ export default {
     '.com @ {space}'
   ]
 }
+
+export default russian;

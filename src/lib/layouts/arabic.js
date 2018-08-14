@@ -1,4 +1,4 @@
-export default {
+const arabic = {
   'default' : [
     "\u0630 1 2 3 4 5 6 7 8 9 0 - = {bksp}",
 		"{tab} \u0636 \u0635 \u062B \u0642 \u0641 \u063A \u0639 \u0647 \u062E \u062D \u062C \u062F \\",
@@ -14,3 +14,5 @@ export default {
     '.com @ {space}'
   ]
 }
+
+export default arabic;

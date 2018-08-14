@@ -1,0 +1,1 @@
+export default{default:["ذ 1 2 3 4 5 6 7 8 9 0 - = {bksp}","{tab} ض ص ث ق ف غ ع ه خ ح ج د \\","{lock} ش س ي ب ل ا ت ن م ك ط {enter}","{shift} ئ ء ؤ ر لا ى ة و ز ظ {shift}",".com @ {space}"],shift:["ّ ! @ # $ % ^ & * ) ( _ + {bksp}","{tab} َ ً ُ ٌ لإ إ ‘ ÷ × ؛ < > |",'{lock} ِ ٍ ] [ لأ أ ـ ، / : " {enter}',"{shift} ~ ْ } { لآ آ ’ , . ؟ {shift}",".com @ {space}"]};

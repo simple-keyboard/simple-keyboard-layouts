@@ -1,4 +1,4 @@
-export default {
+const french = {
   'default' : [
     "\u00B2 & \u00E9 \" ' ( - \u00E8 _ \u00E7 \u00E0 ) = {bksp}",
 		"{tab} a z e r t y u i o p ^ $",
@@ -14,3 +14,5 @@ export default {
     '.com @ {space}'
   ]
 }
+
+export default french;

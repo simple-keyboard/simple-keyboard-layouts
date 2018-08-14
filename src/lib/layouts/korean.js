@@ -1,4 +1,4 @@
-export default {
+const korean = {
   'default' : [
     "` 1 2 3 4 5 6 7 8 9 0 - = {bksp}",
 		"{tab} \u1107 \u110c \u1103 \u1100 \u1109 \u116d \u1167 \u1163 \u1162 \u1166 [ ] \u20a9",
@@ -14,3 +14,5 @@ export default {
     '.com @ {space}'
   ]
 }
+
+export default korean;

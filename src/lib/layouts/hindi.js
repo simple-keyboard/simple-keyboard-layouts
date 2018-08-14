@@ -1,4 +1,4 @@
-export default {
+const hindi = {
   'default' : [
     '` \u090D \u0945 \u094D\u0930 \u0930\u094D \u091C\u094D\u091E \u0924\u094D\u0930 \u0915\u094D\u0937 \u0936\u094D\u0930 \u096F \u0966 - \u0943 {bksp}',
 		'{tab} \u094C \u0948 \u093E \u0940 \u0942 \u092C \u0939 \u0917 \u0926 \u091C \u0921 \u093C \u0949 \\',
@@ -14,3 +14,5 @@ export default {
     '.com @ {space}'
   ]
 }
+
+export default hindi;

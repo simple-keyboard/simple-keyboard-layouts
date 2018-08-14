@@ -2,7 +2,7 @@
  * Spanish layouts by Paco Alcantara (https://github.com/pacoalcantara)
  * Based on: http://ascii-table.com/keyboard.php/171 and http://ascii-table.com/keyboard.php/071-2
  */
-export default {
+const spanish = {
   'default' : [
     "\u007c 1 2 3 4 5 6 7 8 9 0 ' \u00bf {bksp}",
 		"{tab} q w e r t y u i o p \u0301 +",
@@ -18,3 +18,5 @@ export default {
     '.com @ {space}'
   ]
 }
+
+export default spanish;

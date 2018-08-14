@@ -1,4 +1,4 @@
-export default {
+const german = {
   'default' : [
     "^ 1 2 3 4 5 6 7 8 9 0 \u00DF \u00B4 {bksp}",
 		"{tab} q w e r t z u i o p \u00FC +",
@@ -14,3 +14,5 @@ export default {
     '.com @ {space}'
   ]
 }
+
+export default german;

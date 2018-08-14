@@ -9,6 +9,7 @@ const ModuleScopePlugin = require('react-dev-utils/ModuleScopePlugin');
 const paths = require('./paths');
 const getClientEnvironment = require('./env');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
+const UglifyJS = require('uglify-es');
 
 // Webpack uses `publicPath` to determine where the app is being served from.
 // It requires a trailing slash, or the file assets will get an incorrect path.
@@ -59,7 +60,7 @@ module.exports = {
     path: paths.appBuild,
     filename: 'index.js',
     libraryTarget: 'umd',
-    library: 'SimpleKeyboard'
+    library: 'SimpleKeyboardLayouts'
   },
   resolve: {
     // This allows you to set a fallback for where Webpack should look for modules.
@@ -259,7 +260,16 @@ module.exports = {
     // You can remove this if you don't use Moment.js:
     new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/),
     new CopyWebpackPlugin([
-      { from: `${paths.appLayouts}`, to: paths.appLayoutsBuild },
+      {
+        from: `${paths.appLayouts}`,
+        to: paths.appLayoutsBuild,
+        transform(content, src) {
+          // @param content: Buffer
+          // @param src: String 
+          // @return Buffer
+          return Promise.resolve(Buffer.from(UglifyJS.minify(content.toString()).code, 'utf8'));
+        }
+      }
     ])
   ],
   // CRL: added externals block for library

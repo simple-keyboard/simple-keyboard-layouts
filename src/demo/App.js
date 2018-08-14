@@ -2,8 +2,11 @@ import Keyboard from 'simple-keyboard';
 import 'simple-keyboard/build/css/index.css';
 import './css/App.css';
 
-// Layout
-import jp from '../lib/layouts/japanese';
+/**
+ * Available layouts
+ * https://github.com/hodgef/simple-keyboard-layouts/tree/master/src/lib/layouts
+ */
+import layout from '../lib/layouts/arabic';
 
 class App {
   constructor(){
@@ -12,13 +15,13 @@ class App {
     this.layoutName = "default";
   }
 
-  onDOMLoaded = () => {
+  onDOMLoaded = async () => {
     this.keyboard = new Keyboard({
       debug: true,
       onChange: input => this.onChange(input),
       onKeyPress: button => this.onKeyPress(button),
       newLineOnEnter: true,
-      layout: jp
+      layout: layout
     });
   
     /**
