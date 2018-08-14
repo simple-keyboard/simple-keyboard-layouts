@@ -11,7 +11,7 @@ import thai from '../layouts/thai';
 
 class SimpleKeyboardLayouts {
 
-  get = async (lang) => {
+  get = (lang) => {
     const languages = {
       arabic,
       chinese,
@@ -27,7 +27,7 @@ class SimpleKeyboardLayouts {
 
     return languages[lang];
   }
-  
+
 }
 
 export default SimpleKeyboardLayouts;
