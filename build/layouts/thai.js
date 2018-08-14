@@ -1,0 +1,1 @@
+const thai={default:["_ ๅ / - ภ ถ ุ ึ ค ฅ จ ข ช {bksp}","{tab} ๆ ไ ำ พ ะ ั ี ร น ย บ ล ฃ ","{lock} ฟ ห ก ด เ ้ ่ า ส ว ง {enter}","{shift} ผ ป แ อ ิ ื ท ม ใ ฝ {shift}",".com @ {space}"],shift:["% + ๑ ๒ ๓ ๔ ู ฿ ๕ ๖ ๗ ๘ ๙ {bksp}",'{tab} ๐ " ฎ ฑ ธ ํ ๊ ณ ฯ ญ ฐ , ฅ',"{lock} ฤ ฆ ฏ โ ฌ ็ ๋ ษ ศ ซ . {enter}","{shift} ( ) ฉ ฮ ฺ ์ ? ฒ ฬ ฦ {shift}",".com @ {space}"]};export default thai;
