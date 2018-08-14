@@ -6,7 +6,7 @@ import './css/App.css';
  * Available layouts
  * https://github.com/hodgef/simple-keyboard-layouts/tree/master/src/lib/layouts
  */
-import layout from '../lib/layouts/arabic';
+import layout from '../lib/layouts/japanese';
 
 class App {
   constructor(){
