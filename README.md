@@ -1,6 +1,6 @@
 [![npm version](https://badge.fury.io/js/simple-keyboard-layouts.svg)](https://www.npmjs.com/package/simple-keyboard-layouts)
 
-<a href="https://franciscohodge.com/simple-keyboard/demo" title="View Demo"><img src="https://franciscohodge.com/project-pages/simple-keyboard/images/simple-keyboard-layouts-banner4.png" align="center"></a>
+<a href="https://franciscohodge.com/simple-keyboard/demo" title="View Demo" target="_blank"><img src="https://franciscohodge.com/project-pages/simple-keyboard/images/simple-keyboard-layouts-banner4.png" align="center"></a>
 
 > The multi-language keyboard layout kit for simple-keyboard.
 
