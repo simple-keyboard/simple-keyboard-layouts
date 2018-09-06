@@ -1,6 +1,6 @@
 {
   "name": "simple-keyboard-layouts",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Layouts module for simple-keyboard",
   "main": "build/index.js",
   "scripts": {
@@ -35,9 +35,7 @@
     "keyboard-layout"
   ],
   "license": "MIT",
-  "dependencies": {
-    "simple-keyboard": "^2.3.19"
-  },
+  "dependencies": {},
   "devDependencies": {
     "autoprefixer": "7.1.6",
     "babel-core": "^6.26.3",
