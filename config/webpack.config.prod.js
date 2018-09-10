@@ -10,6 +10,7 @@ const paths = require('./paths');
 const getClientEnvironment = require('./env');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const UglifyJS = require('uglify-es');
+const getPackageJson = require('./getPackageJson');
 
 // Webpack uses `publicPath` to determine where the app is being served from.
 // It requires a trailing slash, or the file assets will get an incorrect path.
@@ -43,6 +44,25 @@ const extractTextPluginOptions = shouldUseRelativeAssetPaths
   ? // Making sure that the publicPath goes back to to build folder.
     { publicPath: Array(cssFilename.split('/').length).join('../') }
   : {};
+
+const {
+  version,
+  name,
+  license,
+  repository,
+  author,
+} = getPackageJson('version', 'name', 'license', 'repository', 'author');
+
+const banner = `
+  ${name} v${version}
+  ${repository.url}
+
+  Copyright (c) ${author.replace(/ *\<[^)]*\> */g, " ")}
+
+  This source code is licensed under the ${license} license found in the
+  LICENSE file in the root directory of this source tree.
+  `;
+
 
 // This is the production configuration.
 // It compiles slowly and is focused on producing a fast and minimal bundle.
@@ -248,6 +268,10 @@ module.exports = {
         ascii_only: true,
       },
       sourceMap: shouldUseSourceMap,
+    }),
+    new webpack.BannerPlugin({ 
+      banner: banner, 
+      entryOnly: true 
     }),
     // Note: this won't work without ExtractTextPlugin.extract(..) in `loaders`.
     new ExtractTextPlugin({
