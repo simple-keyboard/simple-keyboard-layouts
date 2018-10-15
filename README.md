@@ -1,6 +1,8 @@
 [![npm version](https://badge.fury.io/js/simple-keyboard-layouts.svg)](https://www.npmjs.com/package/simple-keyboard-layouts)
+[![Build Status](https://travis-ci.org/hodgef/simple-keyboard-layouts.svg?branch=master)](https://travis-ci.org/hodgef/simple-keyboard-layouts)
+[![](https://img.shields.io/badge/discord--chat-join-green.svg?longCache=true&style=flat-square&colorB=7289DA&logo=discord)](http://franciscohodge.com/simple-keyboard/chat/join) 
 
-<a href="https://franciscohodge.com/simple-keyboard/demo" title="View Demo" target="_blank"><img src="https://franciscohodge.com/project-pages/simple-keyboard/images/simple-keyboard-layouts-banner4.png" align="center"></a>
+<a href="https://franciscohodge.com/simple-keyboard/demo" title="View Demo" target="_blank"><img src="https://franciscohodge.com/project-pages/simple-keyboard/images/simplekeyboard-layouts-banner2.png" align="center"></a>
 
 > The multi-language keyboard layout kit for simple-keyboard.
 
@@ -54,7 +56,7 @@ function onKeyPress(button){
 <div class="simple-keyboard"></div>
 ````
 
-[![Edit simple-keyboard-layouts demo - npm](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/pk9513441m)
+<a href="https://codesandbox.io/s/github/hodgef/demo_npm_simple-keyboard-layouts" title="run demo" target="_blank"><img src="https://franciscohodge.com/project-pages/simple-keyboard/images/rundemo200.png" width="150" align="center"></a>
 
 ## Usage with CDN
 
@@ -106,7 +108,7 @@ function onKeyPress(button) {
 }
 ````
 
-[![Edit simple-keyboard-layouts demo - cdn](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/3x68op108p)
+<a href="https://codesandbox.io/s/github/hodgef/demo_cdn_simple-keyboard-layouts" title="run demo" target="_blank"><img src="https://franciscohodge.com/project-pages/simple-keyboard/images/rundemo200.png" width="150" align="center"></a>
 
 # Options and Customization
 
