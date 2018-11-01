@@ -1,11 +1,10 @@
-<a href="https://franciscohodge.com/simple-keyboard/demo" title="View Demo" target="_blank"><img src="https://franciscohodge.com/project-pages/simple-keyboard/images/simple-keyboard-layoutsX4.png"></a>
-
-> The multi-language keyboard layout kit for simple-keyboard.
-
 [![npm version](https://badge.fury.io/js/simple-keyboard-layouts.svg)](https://www.npmjs.com/package/simple-keyboard-layouts)
 [![Build Status](https://travis-ci.org/hodgef/simple-keyboard-layouts.svg?branch=master)](https://travis-ci.org/hodgef/simple-keyboard-layouts)
 [![](https://img.shields.io/badge/discord--chat-join-green.svg?longCache=true&style=flat-square&colorB=7289DA&logo=discord)](http://franciscohodge.com/simple-keyboard/chat/join) 
 
+<a href="https://franciscohodge.com/simple-keyboard/demo" title="View Demo" target="_blank"><img src="https://franciscohodge.com/project-pages/simple-keyboard/images/simple-keyboard-layoutsX4.png"></a>
+
+> The multi-language keyboard layout kit for simple-keyboard.
 
 ## Languages supported
 [Click here for the full list of supported languages](https://github.com/hodgef/simple-keyboard-layouts/tree/master/src/lib/layouts)
