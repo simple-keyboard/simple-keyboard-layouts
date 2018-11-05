@@ -72,7 +72,7 @@
     "react-dom": "^16.2.0",
     "simple-keyboard": "^2.7.5",
     "style-loader": "0.19.0",
-    "sw-precache-webpack-plugin": "0.11.4",
+    "sw-precache-webpack-plugin": "0.11.5",
     "uglify-es": "^3.3.9",
     "url-loader": "0.6.2",
     "webpack": "3.12.0",
