@@ -1,0 +1,1 @@
+const sindhi={default:["` ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ٠ - = {bksp}","{tab} ق ﻭ ع ر ت ڀ ء ي ﮦ پ [ ]","{lock} ا س د ف گ ھ ج ک ل ؛ ، {enter}","{shift} ز ش چ ط ب ن م ڇ , . / {shift}",".com @ {space}"],shift:["~ ! @ # $ ٪ ^ & * ( ) _ + {bksp}","{tab} ﹰ ڌ ڪ ڙ ٽ ﹺ ﻻ ﺋ ڦ | { }","{lock} ٻ ص ڊ ؍ غ ح ض خ ۔ ܃ ״ {enter}","{shift} ذ ٿ ث ظ ٺ ٫ ـ < > ؟ {shift}",".com @ {space}"]};export default sindhi;

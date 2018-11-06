@@ -4,10 +4,13 @@
 
 <a href="https://franciscohodge.com/simple-keyboard/demo" title="View Demo" target="_blank"><img src="https://franciscohodge.com/project-pages/simple-keyboard/images/simple-keyboard-layoutsX4.png"></a>
 
-> The multi-language keyboard layout kit for simple-keyboard.
+> The keyboard layout kit for simple-keyboard.
 
-## Languages supported
-[Click here for the full list of supported languages](https://github.com/hodgef/simple-keyboard-layouts/tree/master/src/lib/layouts)
+## Layouts supported
+
+> simple-keyboard-layouts supports a wide range of languages and other layouts.
+
+[Click here for the full list of supported layouts](https://github.com/hodgef/simple-keyboard-layouts/wiki/Supported-Layouts)
 
 ## Installation
 

@@ -8,11 +8,13 @@ import korean from '../layouts/korean';
 import russian from '../layouts/russian';
 import spanish from '../layouts/spanish';
 import thai from '../layouts/thai';
+import urdu from '../layouts/urdu';
+import sindhi from '../layouts/sindhi';
 
 class SimpleKeyboardLayouts {
 
-  get = (lang) => {
-    const languages = {
+  get = (layout) => {
+    const layouts = {
       arabic,
       chinese,
       french,
@@ -22,10 +24,12 @@ class SimpleKeyboardLayouts {
       korean,
       russian,
       spanish,
-      thai
+      thai,
+      urdu,
+      sindhi
     };
 
-    return languages[lang];
+    return layouts[layout];
   }
 
 }
