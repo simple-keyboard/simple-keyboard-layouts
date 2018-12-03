@@ -62,7 +62,7 @@ function onKeyPress(button){
 <div class="simple-keyboard"></div>
 ````
 
-<a href="https://codesandbox.io/s/github/hodgef/demo_npm_simple-keyboard-layouts" title="run demo" target="_blank"><img src="https://franciscohodge.com/project-pages/simple-keyboard/images/rundemo200.png" width="150" align="center"></a>
+<a href="https://codesandbox.io/s/github/hodgef/simple-keyboard-layouts-demos/tree/japanese/" title="run demo" target="_blank"><img src="https://franciscohodge.com/project-pages/simple-keyboard/images/rundemo200.png" width="150" align="center"></a>
 
 ## Usage with CDN
 
@@ -115,7 +115,7 @@ function onKeyPress(button) {
 }
 ````
 
-<a href="https://codesandbox.io/s/github/hodgef/demo_cdn_simple-keyboard-layouts" title="run demo" target="_blank"><img src="https://franciscohodge.com/project-pages/simple-keyboard/images/rundemo200.png" width="150" align="center"></a>
+<a href="https://codesandbox.io/s/github/hodgef/simple-keyboard-layouts-demos/tree/cdn/" title="run demo" target="_blank"><img src="https://franciscohodge.com/project-pages/simple-keyboard/images/rundemo200.png" width="150" align="center"></a>
 
 # Options and Customization
 
