@@ -1,6 +1,6 @@
 {
   "name": "simple-keyboard-layouts",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "Layouts module for simple-keyboard",
   "main": "build/index.js",
   "scripts": {
@@ -85,7 +85,7 @@
     "react-dom": "^16.7.0",
     "resolve": "1.9.0",
     "sass-loader": "7.1.0",
-    "simple-keyboard": "^2.13.2",
+    "simple-keyboard": "latest",
     "style-loader": "0.23.1",
     "terser-webpack-plugin": "1.2.1",
     "uglify-es": "^3.3.10",
