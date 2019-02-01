@@ -1,0 +1,1 @@
+const czech={default:["; + ě š č ř ž ý á í é ´ {bksp}","{tab} q w e r t y u i o p ú ) ¨","{lock} a s d f g h j k l ů § {enter}","{shift} \\ z x c v b n m , . - {shift}",".com @ {space}"],shift:["° 1 2 3 4 5 6 7 8 9 0 % ˇ {bksp}","{tab} Q W E R T Y U I O P / ( '",'{lock} A S D F G H J K L " ! {enter}',"{shift} | Z X C V B N M ? : _ {shift}",".com @ {space}"]};export default czech;
