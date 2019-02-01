@@ -15,28 +15,25 @@ import thai from '../layouts/thai';
 import urdu from '../layouts/urdu';
 
 class SimpleKeyboardLayouts {
+  layouts = {
+    arabic,
+    chinese,
+    czech,
+    english,
+    french,
+    german,
+    hindi,
+    italian,
+    japanese,
+    korean,
+    russian,
+    sindhi,
+    spanish,
+    thai,
+    urdu
+  };
 
-  get = (layout) => {
-    const layouts = {
-      arabic,
-      chinese,
-      english,
-      french,
-      german,
-      hindi,
-      italian,
-      japanese,
-      korean,
-      russian,
-      sindhi,
-      spanish,
-      thai,
-      urdu
-    };
-
-    return layouts[layout];
-  }
-
+  get = layout => layout ? this.layouts[layout] : this.layouts;
 }
 
 export default SimpleKeyboardLayouts;
