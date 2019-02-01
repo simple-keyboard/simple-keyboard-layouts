@@ -1,5 +1,6 @@
 import arabic from '../layouts/arabic';
 import chinese from'../layouts/chinese';
+import czech from'../layouts/czech';
 import english from'../layouts/english';
 import french from '../layouts/french';
 import german from '../layouts/german';
