@@ -12,6 +12,7 @@ import russian from '../layouts/russian';
 import sindhi from '../layouts/sindhi';
 import spanish from '../layouts/spanish';
 import thai from '../layouts/thai';
+import turkish from '../layouts/turkish';
 import urdu from '../layouts/urdu';
 
 class SimpleKeyboardLayouts {
@@ -30,6 +31,7 @@ class SimpleKeyboardLayouts {
     sindhi,
     spanish,
     thai,
+    turkish,
     urdu
   };
 
