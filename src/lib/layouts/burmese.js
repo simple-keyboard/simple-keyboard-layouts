@@ -1,7 +1,7 @@
-const myanmar = {
+const burmese = {
   'default' : [
     "\u1050 \u1041 \u1042 \u1043 \u1044 \u1045 \u1046 \u1047 \u1048 \u1049 \u1040 \u0E02 \u0E0A {bksp}",
-		"{tab} \u1006 \u1006 \u1014 \u1019 \u1021 \u1015 \u1000 \u1004 \u101E \u1005 \u101F \u1029 \u104F ",
+		"{tab} \u1006 \u1006 \u1014 \u1019 \u1021 \u1015 \u1000 \u1004 \u101E \u1005 \u101F \u1029 \u104F",
 		"{lock} \u1031 \u103A \u102D \u1039 \u102B \u1037 \u103B \u102F \u1030 \u1038 \u0E07 {enter}",
 		"{shift} \u1016 \u1011 \u1001 \u101C \u1018 \u100A \u102C \u0E21 \u0E43 \u0E1D {shift}",
     '.com @ {space}'
@@ -15,4 +15,4 @@ const myanmar = {
   ]
 }
 
-export default myanmar;
+export default burmese;
