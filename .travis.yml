@@ -1,7 +1,11 @@
 language: node_js
 node_js:
- - "node"
+ - '11.2'
+install:
+  - npm install
 script:
+- npm run start -- --testMode
+- npm run demo
  - npm run test
 after_success:
   - wget https://raw.githubusercontent.com/DiscordHooks/travis-ci-discord-webhook/master/send.sh
