@@ -13,10 +13,31 @@
 
 Check out the [Getting Started](https://franciscohodge.com/projects/simple-keyboard/modules/simple-keyboard-layouts/) docs to begin.
 
-## 📃 Options and Customization
-
 To fully customize your virtual keyboard, check out the main [simple-keyboard repository](https://github.com/hodgef/simple-keyboard).
 
-## 🌟 Contributing to simple-keyboard-layouts
+## 📃 Supported Layouts
 
-Contributions are always welcome! Add your own layout by [following these steps](https://github.com/hodgef/simple-keyboard-layouts/wiki/Supported-Layouts#how-to-add-a-new-layout).
+> [Click here to browse the layout files](https://github.com/hodgef/simple-keyboard-layouts/tree/master/src/lib/layouts)
+
+* Arabic
+* Burmese (**[U Kyi Win](https://github.com/ukyiwin)**)
+* Chinese
+* Czech (**[Dmitry Dalimov](https://github.com/slavabogov)**)
+* English
+* French
+* Georgian (**[e404r](https://github.com/e404r)**)
+* German
+* Hindi
+* Italian
+* Japanese
+* Korean
+* Russian
+* Sindhi (**[Salman Sattar](https://github.com/salman65)**)
+* Spanish
+* Thai
+* Turkish (**[Caglar Turali](https://github.com/caglarturali)**)
+* Urdu (**[Salman Sattar](https://github.com/salman65)**)
+
+## 🌟 Contributing
+
+Contributions are always welcome! Add your own layout by [following these steps](https://github.com/hodgef/simple-keyboard-layouts/wiki/Adding-a-Layout).

@@ -4,6 +4,7 @@ import chinese from "../layouts/chinese";
 import czech from "../layouts/czech";
 import english from "../layouts/english";
 import french from "../layouts/french";
+import georgian from "../layouts/georgian";
 import german from "../layouts/german";
 import hindi from "../layouts/hindi";
 import italian from "../layouts/italian";
@@ -24,6 +25,7 @@ class SimpleKeyboardLayouts {
     czech,
     english,
     french,
+    georgian,
     german,
     hindi,
     italian,
