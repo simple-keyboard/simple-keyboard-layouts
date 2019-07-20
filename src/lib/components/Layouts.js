@@ -16,7 +16,7 @@ import spanish from "../layouts/spanish";
 import thai from "../layouts/thai";
 import turkish from "../layouts/turkish";
 import urdu from "../layouts/urdu";
-
+import kannada from "../layouts/kannada";
 class SimpleKeyboardLayouts {
   layouts = {
     arabic,
@@ -36,7 +36,8 @@ class SimpleKeyboardLayouts {
     spanish,
     thai,
     turkish,
-    urdu
+    urdu,
+    kannada
   };
 
   get = layout => (layout ? this.layouts[layout] : this.layouts);
