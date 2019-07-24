@@ -1,0 +1,1 @@
+const kannada={default:["ೊ 1 2 3 4 5 6 7 8 9 0 - ೃ {bksp}","{tab} ೌ ೈ ಾ ೀ ೂ ಬ ಹ ಗ ದ ಜ ಡ","ೋ ೇ ್ ಿ ು ಪ ರ ಕ ತ ಚ ಟ {enter}","{shift} ೆ ಂ ಮ ನ ವ ಲ ಸ , . / {shift}",".com @ {space}"],shift:["ಒ ್ರ ರ್ ಜ್ಞ ತ್ರ ಕ್ಷ ಶ್ರ ( ) ಃ ಋ {bksp}","{tab} ಔ ಐ ಆ ಈ ಊ ಭ ಙ ಘ ಧ ಝ ಢ ಞ","ಓ ಏ ಅ ಇ ಉ ಫ ಱ ಖ ಥ ಛ ಠ {enter}","{shift} ಎ ಣ ಳ ಶ ಷ | / {shift}",".com @ {space}"]};export default kannada;
