@@ -30,6 +30,7 @@ To fully customize your virtual keyboard, check out the main [simple-keyboard re
 * Hindi
 * Italian
 * Japanese
+* Kannada (**[yogishp](https://github.com/yogishp)**)
 * Korean
 * Russian
 * Sindhi (**[Salman Sattar](https://github.com/salman65)**)
