@@ -19,26 +19,26 @@ To fully customize your virtual keyboard, check out the main [simple-keyboard re
 
 > [Click here to browse the layout files](https://github.com/hodgef/simple-keyboard-layouts/tree/master/src/lib/layouts)
 
-* Arabic
-* Burmese (**[U Kyi Win](https://github.com/ukyiwin)**)
-* Chinese
-* Czech (**[Dmitry Dalimov](https://github.com/slavabogov)**)
-* English
-* French
-* Georgian (**[e404r](https://github.com/e404r)**)
-* German
-* Hindi
-* Italian
-* Japanese
-* Kannada (**[yogishp](https://github.com/yogishp)**)
-* Korean
-* Russian
-* Sindhi (**[Salman Sattar](https://github.com/salman65)**)
-* Spanish
-* Thai
-* Turkish (**[Caglar Turali](https://github.com/caglarturali)**)
-* Ukrainian (**[boomsya](https://github.com/boomsya)**)
-* Urdu (**[Salman Sattar](https://github.com/salman65)**)
+* [Arabic](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/arabic/)
+* [Burmese](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/burmese/) - by [U Kyi Win](https://github.com/ukyiwin)
+* [Chinese](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/chinese/)
+* [Czech](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/czech/) - by[Dmitry Dalimov](https://github.com/slavabogov)
+* [English](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/)
+* [French](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/french/)
+* [Georgian](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/georgian/) - by [e404r](https://github.com/e404r)
+* [German](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/german/)
+* [Hindi](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/hindi/)
+* [Italian](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/italian/)
+* [Japanese](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/japanese/)
+* [Kannada](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/kannada/) - by [yogishp](https://github.com/yogishp)
+* [Korean](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/korean/)
+* [Russian](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/russian/)
+* [Sindhi](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/sindhi/) - by [Salman Sattar](https://github.com/salman65)
+* [Spanish](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/spanish/)
+* [Thai](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/thai/)
+* [Turkish](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/turkish/) - by [Caglar Turali](https://github.com/caglarturali)
+* [Ukrainian](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/ukrainian/) - by [boomsya](https://github.com/boomsya)
+* [Urdu](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/urdu/) - by [Salman Sattar](https://github.com/salman65)
 
 ## 🌟 Contributing
 
