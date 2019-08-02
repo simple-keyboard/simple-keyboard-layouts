@@ -22,7 +22,7 @@ To fully customize your virtual keyboard, check out the main [simple-keyboard re
 * [Arabic](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/arabic/)
 * [Burmese](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/burmese/) - by [U Kyi Win](https://github.com/ukyiwin)
 * [Chinese](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/chinese/)
-* [Czech](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/czech/) - by[Dmitry Dalimov](https://github.com/slavabogov)
+* [Czech](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/czech/) - by [Dmitry Dalimov](https://github.com/slavabogov)
 * [English](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/)
 * [French](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/french/)
 * [Georgian](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/georgian/) - by [e404r](https://github.com/e404r)
