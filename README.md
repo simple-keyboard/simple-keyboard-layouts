@@ -37,6 +37,7 @@ To fully customize your virtual keyboard, check out the main [simple-keyboard re
 * Spanish
 * Thai
 * Turkish (**[Caglar Turali](https://github.com/caglarturali)**)
+* Ukrainian (**[boomsya](https://github.com/boomsya)**)
 * Urdu (**[Salman Sattar](https://github.com/salman65)**)
 
 ## 🌟 Contributing
