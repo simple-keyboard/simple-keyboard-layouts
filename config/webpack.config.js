@@ -13,7 +13,9 @@ const TerserPlugin = require('terser-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const safePostCssParser = require('postcss-safe-parser');
+const ManifestPlugin = require('webpack-manifest-plugin');
 const InterpolateHtmlPlugin = require('react-dev-utils/InterpolateHtmlPlugin');
+const WorkboxWebpackPlugin = require('workbox-webpack-plugin');
 const WatchMissingNodeModulesPlugin = require('react-dev-utils/WatchMissingNodeModulesPlugin');
 const ModuleScopePlugin = require('react-dev-utils/ModuleScopePlugin');
 const getCSSModuleLocalIdent = require('react-dev-utils/getCSSModuleLocalIdent');
@@ -27,14 +29,21 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 const getPackageJson = require('./getPackageJson');
 const PrettierPlugin = require("prettier-webpack-plugin");
 const UglifyJS = require('uglify-es');
+const eslint = require('eslint');
 
 const postcssNormalize = require('postcss-normalize');
+
+const appPackageJson = require(paths.appPackageJson);
 
 // Source maps are resource heavy and can cause out of memory issue for large source files.
 const shouldUseSourceMap = process.env.GENERATE_SOURCEMAP !== 'false';
 // Some apps do not need the benefits of saving a web request, so not inlining the chunk
 // makes for a smoother build process.
 const shouldInlineRuntimeChunk = process.env.INLINE_RUNTIME_CHUNK !== 'false';
+
+const imageInlineSizeLimit = parseInt(
+  process.env.IMAGE_INLINE_SIZE_LIMIT || '10000'
+);
 
 // Check if TypeScript is setup
 const useTypeScript = fs.existsSync(paths.appTsConfig);
@@ -94,10 +103,7 @@ module.exports = function(webpackEnv) {
       isEnvDevelopment && require.resolve('style-loader'),
       isEnvProduction && {
         loader: MiniCssExtractPlugin.loader,
-        options: Object.assign(
-          {},
-          shouldUseRelativeAssetPaths ? { publicPath: '../../' } : undefined
-        ),
+        options: shouldUseRelativeAssetPaths ? { publicPath: '../../' } : {},
       },
       {
         loader: require.resolve('css-loader'),
@@ -130,12 +136,20 @@ module.exports = function(webpackEnv) {
       },
     ].filter(Boolean);
     if (preProcessor) {
-      loaders.push({
-        loader: require.resolve(preProcessor),
+      loaders.push(
+        {
+          loader: require.resolve('resolve-url-loader'),
         options: {
           sourceMap: isEnvProduction && shouldUseSourceMap,
         },
-      });
+        },
+        {
+          loader: require.resolve(preProcessor),
+          options: {
+            sourceMap: true,
+          },
+    }
+      );
     }
     return loaders;
   };
@@ -200,6 +214,9 @@ module.exports = function(webpackEnv) {
               .replace(/\\/g, '/')
         : isEnvDevelopment &&
           (info => path.resolve(info.absoluteResourcePath).replace(/\\/g, '/')),
+      // Prevents conflicts when multiple Webpack runtimes (from different apps)
+      // are used on the same page.
+      jsonpFunction: `webpackJsonp${appPackageJson.name}`,
     },
     optimization: {
       minimize: isEnvProduction,
@@ -208,8 +225,8 @@ module.exports = function(webpackEnv) {
         new TerserPlugin({
           terserOptions: {
             parse: {
-              // we want terser to parse ecma 8 code. However, we don't want it
-              // to apply any minfication steps that turns valid ecma 5 code
+              // We want terser to parse ecma 8 code. However, we don't want it
+              // to apply any minification steps that turns valid ecma 5 code
               // into invalid ecma 5 code. This is why the 'compress' and 'output'
               // sections only apply transformations that are ecma 5 safe
               // https://github.com/facebook/create-react-app/pull/4234
@@ -225,7 +242,7 @@ module.exports = function(webpackEnv) {
               comparisons: false,
               // Disabled because of an issue with Terser breaking valid code:
               // https://github.com/facebook/create-react-app/issues/5250
-              // Pending futher investigation:
+              // Pending further investigation:
               // https://github.com/terser-js/terser/issues/120
               inline: 2,
             },
@@ -290,7 +307,9 @@ module.exports = function(webpackEnv) {
       // We placed these paths second because we want `node_modules` to "win"
       // if there are any conflicts. This matches Node resolution mechanism.
       // https://github.com/facebook/create-react-app/issues/253
-      modules: ['node_modules', paths.appNodeModules].concat(modules.additionalModulePaths || []),
+      modules: ['node_modules', paths.appNodeModules].concat(
+        modules.additionalModulePaths || []
+      ),
       // These are the reasonable defaults supported by the Node ecosystem.
       // We also include JSX as a common component filename extension to support
       // some tools, although we do not recommend using it, see:
@@ -340,6 +359,7 @@ module.exports = function(webpackEnv) {
               options: {
                 formatter: require.resolve('react-dev-utils/eslintFormatter'),
                 eslintPath: require.resolve('eslint'),
+                resolvePluginsRelativeTo: __dirname,
                 
               },
               loader: require.resolve('eslint-loader'),
@@ -359,7 +379,7 @@ module.exports = function(webpackEnv) {
               test: [/\.bmp$/, /\.gif$/, /\.jpe?g$/, /\.png$/],
               loader: require.resolve('url-loader'),
               options: {
-                limit: 10000,
+                limit: imageInlineSizeLimit,
                 name: 'static/media/[name].[hash:8].[ext]',
               },
             },
@@ -515,12 +535,8 @@ module.exports = function(webpackEnv) {
     },
     plugins: [
       isEnvDevelopment &&
-      new HtmlWebpackPlugin({
-        inject: true,
-        template: paths.appHtml,
-      }),
       // Generates an `index.html` file with the <script> injected.
-      /*new HtmlWebpackPlugin(
+      new HtmlWebpackPlugin(
         Object.assign(
           {},
           {
@@ -544,7 +560,7 @@ module.exports = function(webpackEnv) {
               }
             : undefined
         )
-      ),*/
+      ),
       // Inlines the webpack runtime script. This script is too small to warrant
       // a network request.
       isEnvProduction &&
@@ -646,6 +662,12 @@ module.exports = function(webpackEnv) {
           async: isEnvDevelopment,
           useTypescriptIncrementalApi: true,
           checkSyntacticErrors: true,
+          resolveModuleNameModule: process.versions.pnp
+            ? `${__dirname}/pnpTs.js`
+            : undefined,
+          resolveTypeReferenceDirectiveModule: process.versions.pnp
+            ? `${__dirname}/pnpTs.js`
+            : undefined,
           tsconfig: paths.appTsConfig,
           reportFiles: [
             '**',
