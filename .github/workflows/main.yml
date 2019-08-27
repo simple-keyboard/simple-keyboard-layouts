@@ -24,7 +24,6 @@ jobs:
         npm install
         npm run start -- --testMode
         npm run demo
-        npm run coverage
       env:
         CI: true
         
