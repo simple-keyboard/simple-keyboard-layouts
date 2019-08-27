@@ -1,5 +1,5 @@
 [![npm version](https://badge.fury.io/js/simple-keyboard-layouts.svg)](https://www.npmjs.com/package/simple-keyboard-layouts)
-[![Build Status](https://travis-ci.org/hodgef/simple-keyboard-layouts.svg?branch=master)](https://travis-ci.org/hodgef/simple-keyboard-layouts)
+<a href="https://actions-badge.atrox.dev/hodgef/simple-keyboard-layouts/goto"><img alt="Build Status" src="https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fhodgef%2Fsimple-keyboard-layouts%2Fbadge&style=flat" /></a>
 
 <a href="https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/" title="View Demo" target="_blank"><img src="https://franciscohodge.com/project-pages/simple-keyboard/images/simple-keyboard-layoutsX4.png"></a>
 
