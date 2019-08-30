@@ -27,6 +27,7 @@ To fully customize your virtual keyboard, check out the main [simple-keyboard re
 * [French](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/french/)
 * [Georgian](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/georgian/) - by [e404r](https://github.com/e404r)
 * [German](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/german/)
+* [Hebrew](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/hebrew/) - by [vleon1](https://github.com/vleon1)
 * [Hindi](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/hindi/)
 * [Italian](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/italian/)
 * [Japanese](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/japanese/)
