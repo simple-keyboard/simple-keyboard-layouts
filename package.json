@@ -9,7 +9,8 @@
     "demo": "node scripts/demo.js",
     "test": "node scripts/test.js",
     "postinstall": "node bin/postinstall",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "trypublish": "npm publish || true"
   },
   "repository": {
     "type": "git",
