@@ -3,7 +3,7 @@
 
 <a href="https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/" title="View Demo" target="_blank"><img src="https://franciscohodge.com/project-pages/simple-keyboard/images/simple-keyboard-layoutsX4.png"></a>
 
-> The keyboard layout kit for simple-keyboard.
+<blockquote>The keyboard layout kit for simple-keyboard.</blockquote>
 
 ## ✨ Demo
 
