@@ -38,6 +38,7 @@ To fully customize your virtual keyboard, check out the main [simple-keyboard re
 * [Russian](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/russian/)
 * [Sindhi](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/sindhi/) - by [Salman Sattar](https://github.com/salman65)
 * [Spanish](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/spanish/)
+* [Swedish](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/swedish/) - by [wpressdev](https://github.com/wpressdev)
 * [Thai](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/thai/)
 * [Turkish](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/turkish/) - by [Caglar Turali](https://github.com/caglarturali)
 * [Ukrainian](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/ukrainian/) - by [boomsya](https://github.com/boomsya)
