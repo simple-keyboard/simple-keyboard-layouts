@@ -90,7 +90,7 @@
     "react-app-polyfill": "^1.0.6",
     "react-dev-utils": "^10.2.1",
     "react-dom": "^16.13.1",
-    "resolve": "1.15.1",
+    "resolve": "1.16.0",
     "resolve-url-loader": "3.1.1",
     "sass-loader": "8.0.2",
     "simple-keyboard": "2.28.68",
