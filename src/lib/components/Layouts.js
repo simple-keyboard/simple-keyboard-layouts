@@ -1,4 +1,5 @@
 import arabic from "../layouts/arabic";
+import assamese from "../layouts/assamese";
 import burmese from "../layouts/burmese";
 import chinese from "../layouts/chinese";
 import czech from "../layouts/czech";
@@ -25,6 +26,7 @@ import urdu from "../layouts/urdu";
 class SimpleKeyboardLayouts {
   layouts = {
     arabic,
+    assamese,
     burmese,
     chinese,
     czech,
