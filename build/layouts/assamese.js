@@ -1,0 +1,1 @@
+const assamese={default:["॥ ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯ ০ - ৃ {bksp}","{tab} ৌ ৈ া ী ূ ব হ গ দ জ ড ়","ো ে ্ ি ু প ৰ ক ত চ ট {enter}","{shift} ং ম ন ৱ ল স , . য় {shift}",".com @ {space}"],shift:["! @ ( ) ঃ ঋ {bksp}","{tab} ঔ ঐ আ ঘ ঊ ভ ঙ ঘ ধ ঝ ঢ ঞ","ও এ অ ই উ ফ  খ থ ছ ছ ঠ {enter}","{shift} ঁ ণ শ ষ । য {shift}",".com @ {space}"]};export default assamese;
