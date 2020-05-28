@@ -1,4 +1,4 @@
-export const greek = {
+const greek = {
     default: [
         '` 1 2 3 4 5 6 7 8 9 0 - = {bksp}',
         '{tab} ; ς ε ρ τ υ θ ι ο π [ ] \\',
@@ -21,3 +21,5 @@ export const greek = {
         '{abc}'
     ]
 };
+
+export default greek;

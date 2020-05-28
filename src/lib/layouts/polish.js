@@ -1,4 +1,4 @@
-export const polish = {
+const polish = {
     default: [
         '` 1 2 3 4 5 6 7 8 9 0 - = {bksp}',
         '{tab} q w e r t y u i o p [ ] \\',
@@ -14,3 +14,5 @@ export const polish = {
         '.com @ {space} Ą Ę Ć Ł Ń Ó Ś Ż Ź'
     ]
 };
+
+export default polish;
