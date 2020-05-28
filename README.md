@@ -1,4 +1,4 @@
-<a href="https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/" title="View Demo" target="_blank"><img src="https://franciscohodge.com/project-pages/simple-keyboard/images/simple-keyboard-layoutsX4.png"></a>
+<a href="https://hodgef.com/simple-keyboard/demos" title="View Demo" target="_blank"><img src="https://i.imgur.com/VfSCVSS.png"></a>
 
 <blockquote>The keyboard layout kit for simple-keyboard.</blockquote>
 
@@ -8,11 +8,11 @@
 
 ## ✨ Demo
 
-[simple-keyboard-layouts demo](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/)
+[simple-keyboard-layouts demo](https://hodgef.com/simple-keyboard/demos/)
 
 ## 📦 Installation & Usage
 
-Check out the [Getting Started](https://franciscohodge.com/projects/simple-keyboard/modules/simple-keyboard-layouts/) docs to begin.
+Check out the [Getting Started](https://hodgef.com/simple-keyboard/modules/simple-keyboard-layouts/) docs to begin.
 
 To fully customize your virtual keyboard, check out the main [simple-keyboard repository](https://github.com/hodgef/simple-keyboard).
 
@@ -20,29 +20,30 @@ To fully customize your virtual keyboard, check out the main [simple-keyboard re
 
 > [Click here to browse the layout files](https://github.com/hodgef/simple-keyboard-layouts/tree/master/src/lib/layouts)
 
-* [Arabic](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/arabic/)
-* [Burmese](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/burmese/) - by [U Kyi Win](https://github.com/ukyiwin)
-* [Chinese](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/chinese/)
-* [Czech](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/czech/) - by [Dmitry Dalimov](https://github.com/slavabogov)
-* [English](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/)
-* [Farsi](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/farsi/) - by [Alireza Jahandideh](https://github.com/Youhan)
-* [French](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/french/)
-* [Georgian](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/georgian/) - by [e404r](https://github.com/e404r)
-* [German](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/german/)
-* [Hebrew](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/hebrew/) - by [vleon1](https://github.com/vleon1)
-* [Hindi](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/hindi/)
-* [Italian](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/italian/)
-* [Japanese](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/japanese/)
-* [Kannada](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/kannada/) - by [yogishp](https://github.com/yogishp)
-* [Korean](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/korean/)
-* [Russian](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/russian/)
-* [Sindhi](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/sindhi/) - by [Salman Sattar](https://github.com/salman65)
-* [Spanish](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/spanish/)
-* [Swedish](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/swedish/) - by [wpressdev](https://github.com/wpressdev)
-* [Thai](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/thai/)
-* [Turkish](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/turkish/) - by [Caglar Turali](https://github.com/caglarturali)
-* [Ukrainian](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/ukrainian/) - by [boomsya](https://github.com/boomsya)
-* [Urdu](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/languages/urdu/) - by [Salman Sattar](https://github.com/salman65)
+* [Arabic](https://hodgef.com/simple-keyboard/demos/?d=arabic)
+* [Assamese](https://hodgef.com/simple-keyboard/demos/?d=assamese) - by [Akhilesh](https://github.com/akki2825)
+* [Burmese](https://hodgef.com/simple-keyboard/demos/?d=burmese) - by [U Kyi Win](https://github.com/ukyiwin)
+* [Chinese](https://hodgef.com/simple-keyboard/demos/?d=chinese)
+* [Czech](https://hodgef.com/simple-keyboard/demos/?d=czech) - by [Dmitry Dalimov](https://github.com/slavabogov)
+* [English](https://hodgef.com/simple-keyboard/demos/?d=)
+* [Farsi](https://hodgef.com/simple-keyboard/demos/?d=farsi) - by [Alireza Jahandideh](https://github.com/Youhan)
+* [French](https://hodgef.com/simple-keyboard/demos/?d=french)
+* [Georgian](https://hodgef.com/simple-keyboard/demos/?d=georgian) - by [e404r](https://github.com/e404r)
+* [German](https://hodgef.com/simple-keyboard/demos/?d=german)
+* [Hebrew](https://hodgef.com/simple-keyboard/demos/?d=hebrew) - by [vleon1](https://github.com/vleon1)
+* [Hindi](https://hodgef.com/simple-keyboard/demos/?d=hindi)
+* [Italian](https://hodgef.com/simple-keyboard/demos/?d=italian)
+* [Japanese](https://hodgef.com/simple-keyboard/demos/?d=japanese)
+* [Kannada](https://hodgef.com/simple-keyboard/demos/?d=kannada) - by [yogishp](https://github.com/yogishp)
+* [Korean](https://hodgef.com/simple-keyboard/demos/?d=korean)
+* [Russian](https://hodgef.com/simple-keyboard/demos/?d=russian)
+* [Sindhi](https://hodgef.com/simple-keyboard/demos/?d=sindhi) - by [Salman Sattar](https://github.com/salman65)
+* [Spanish](https://hodgef.com/simple-keyboard/demos/?d=spanish)
+* [Swedish](https://hodgef.com/simple-keyboard/demos/?d=swedish) - by [wpressdev](https://github.com/wpressdev)
+* [Thai](https://hodgef.com/simple-keyboard/demos/?d=thai)
+* [Turkish](https://hodgef.com/simple-keyboard/demos/?d=turkish) - by [Caglar Turali](https://github.com/caglarturali)
+* [Ukrainian](https://hodgef.com/simple-keyboard/demos/?d=ukrainian) - by [boomsya](https://github.com/boomsya)
+* [Urdu](https://hodgef.com/simple-keyboard/demos/?d=urdu) - by [Salman Sattar](https://github.com/salman65)
 
 ## 🌟 Contributing
 
