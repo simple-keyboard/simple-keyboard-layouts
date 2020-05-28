@@ -7,10 +7,10 @@ it('Keyboard and layout renders without crashing', () => {
   div.className += "simple-keyboard";
   document.body.appendChild(div);
 
-  let layouts = new Layouts();
-  let japanese = layouts.get("japanese");
+  const layouts = new Layouts();
+  const japanese = layouts.get("japanese");
 
-  let keyboard = new Keyboard({
+  const keyboard = new Keyboard({
     debug: true,
     onChange: input => input,
     onKeyPress: button => button,
