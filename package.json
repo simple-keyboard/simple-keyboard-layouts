@@ -101,7 +101,7 @@
     "uglifyjs-webpack-plugin": "^2.1.2",
     "uglify-es": "^3.3.10",
     "url-loader": "4.1.0",
-    "webpack": "4.43.0",
+    "webpack": "4.44.0",
     "webpack-dev-server": "3.10.3",
     "webpack-manifest-plugin": "2.2.0",
     "workbox-webpack-plugin": "5.1.2"
