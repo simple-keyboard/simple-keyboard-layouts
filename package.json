@@ -1,6 +1,6 @@
 {
   "name": "simple-keyboard-layouts",
-  "version": "1.13.60",
+  "version": "1.13.61",
   "description": "Layouts module for simple-keyboard",
   "main": "build/index.js",
   "scripts": {
