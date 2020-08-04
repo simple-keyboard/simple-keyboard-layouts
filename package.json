@@ -96,7 +96,7 @@
     "simple-keyboard": "2.29.86",
     "semver": "7.3.2",
     "style-loader": "1.1.4",
-    "terser-webpack-plugin": "3.0.8",
+    "terser-webpack-plugin": "3.1.0",
     "ts-pnp": "1.2.0",
     "uglifyjs-webpack-plugin": "^2.1.2",
     "uglify-es": "^3.3.10",
