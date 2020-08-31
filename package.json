@@ -77,7 +77,7 @@
     "jest-resolve": "26.4.0",
     "jest-watch-typeahead": "0.6.0",
     "mini-css-extract-plugin": "0.10.0",
-    "optimize-css-assets-webpack-plugin": "5.0.3",
+    "optimize-css-assets-webpack-plugin": "5.0.4",
     "pnp-webpack-plugin": "1.6.4",
     "prettier": "^1.19.1",
     "prettier-webpack-plugin": "^1.2.0",
