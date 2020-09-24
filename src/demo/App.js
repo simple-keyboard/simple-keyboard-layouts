@@ -40,8 +40,8 @@ class App {
   };
 
   handleShiftButton = () => {
-    let layoutName = this.layoutName;
-    let shiftToggle = (this.layoutName =
+    const layoutName = this.layoutName;
+    const shiftToggle = (this.layoutName =
       layoutName === "default" ? "shift" : "default");
 
     this.keyboard.setOptions({
