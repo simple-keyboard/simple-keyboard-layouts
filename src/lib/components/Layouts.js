@@ -8,6 +8,7 @@ import farsi from "../layouts/farsi";
 import french from "../layouts/french";
 import georgian from "../layouts/georgian";
 import german from "../layouts/german";
+import gilaki from "../layouts/gilaki";
 import greek from "../layouts/greek";
 import hebrew from "../layouts/hebrew";
 import hindi from "../layouts/hindi";
@@ -37,6 +38,7 @@ class SimpleKeyboardLayouts {
     french,
     georgian,
     german,
+	gilaki,
     greek,
     hebrew,
     hindi,
