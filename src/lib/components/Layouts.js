@@ -38,7 +38,7 @@ class SimpleKeyboardLayouts {
     french,
     georgian,
     german,
-	gilaki,
+    gilaki,
     greek,
     hebrew,
     hindi,
