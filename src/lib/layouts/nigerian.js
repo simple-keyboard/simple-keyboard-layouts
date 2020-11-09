@@ -4,14 +4,14 @@ const nigerian = {
     "{tab} q w e r t y u i o p ụ ị",
     "{lock} a s d f g h j k l ọ ẹ ǝ {enter}",
     "{shift} z y x c v b n m , . ṣ {shift}",
-    "? @ {space}"
+    ".com @ {space}"
   ],
   shift: [
     'ˆ ! " / _ ₦ % = - | ( ) Ɗ Ƙ {bksp}',
     "{tab} Q W E R T Y U I O P Ụ Ị",
     "{lock} A S D F G H J K L Ọ Ẹ Ǝ {enter}",
     "{shift} Z Ɓ C V B N M ; : Ṣ {shift}",
-    "` * {space}"
+    ".com @ {space}"
   ]
 };
 
