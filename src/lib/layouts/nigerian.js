@@ -1,6 +1,6 @@
 const nigerian = {
   default: [
-    "ˊ  1 2 3 4 5 6 7 8 9 0 ɗ ƙ {bksp}",
+    "ˊ 1 2 3 4 5 6 7 8 9 0 ɗ ƙ {bksp}",
     "{tab} q w e r t y u i o p ụ ị",
     "{lock} a s d f g h j k l ọ ẹ ǝ {enter}",
     "{shift} z y x c v b n m , . ṣ {shift}",
