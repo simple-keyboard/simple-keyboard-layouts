@@ -3,7 +3,7 @@
 <blockquote>The keyboard layout kit for simple-keyboard.</blockquote>
 
 [![npm version](https://badge.fury.io/js/simple-keyboard-layouts.svg)](https://www.npmjs.com/package/simple-keyboard-layouts)
-<a href="https://github.com/hodgef/simple-keyboard-layouts/actions"><img alt="Build Status" src="https://github.com/hodgef/simple-keyboard-layouts/workflows/Build/badge.svg?color=green" /></a> <a href="https://github.com/hodgef/simple-keyboard-layouts/actions"><img alt="Publish Status" src="https://github.com/hodgef/simple-keyboard-layouts/workflows/Publish/badge.svg?color=green" /></a>
+<a href="https://github.com/simple-keyboard/simple-keyboard-layouts/actions"><img alt="Build Status" src="https://github.com/simple-keyboard/simple-keyboard-layouts/workflows/Build/badge.svg?color=green" /></a> <a href="https://github.com/simple-keyboard/simple-keyboard-layouts/actions"><img alt="Publish Status" src="https://github.com/simple-keyboard/simple-keyboard-layouts/workflows/Publish/badge.svg?color=green" /></a>
 
 ## ✨ Demo
 
@@ -38,6 +38,7 @@ To fully customize your virtual keyboard, check out the main [simple-keyboard re
 - [Kannada](https://hodgef.com/simple-keyboard/demos/?d=kannada) - by [yogishp](https://github.com/yogishp)
 - [Korean](https://hodgef.com/simple-keyboard/demos/?d=korean)
 - [Nigerian](https://hodgef.com/simple-keyboard/demos/?d=nigerian) - by [Benson Muite](https://github.com/bkmgit)
+- [Norwegian](https://hodgef.com/simple-keyboard/demos/?d=norwegian) - by [Prakriti Tiwari](https://github.com/prakriti89)
 - [Polish](https://hodgef.com/simple-keyboard/demos/?d=polish) - by [maciej-sielski](https://github.com/maciej-sielski)
 - [Russian](https://hodgef.com/simple-keyboard/demos/?d=russian)
 - [Sindhi](https://hodgef.com/simple-keyboard/demos/?d=sindhi) - by [Salman Sattar](https://github.com/salman65)
