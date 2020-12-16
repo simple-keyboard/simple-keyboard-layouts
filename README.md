@@ -48,6 +48,7 @@ To fully customize your virtual keyboard, check out the main [simple-keyboard re
 - [Turkish](https://hodgef.com/simple-keyboard/demos/?d=turkish) - by [Caglar Turali](https://github.com/caglarturali)
 - [Ukrainian](https://hodgef.com/simple-keyboard/demos/?d=ukrainian) - by [boomsya](https://github.com/boomsya)
 - [Urdu](https://hodgef.com/simple-keyboard/demos/?d=urdu) - by [Salman Sattar](https://github.com/salman65)
+- [Uyghur](https://hodgef.com/simple-keyboard/demos/?d=uyghur) - by [Ailiniyazi Maimaiti](https://github.com/fkcailiniyazi)
 
 ## 🌟 Contributing
 
