@@ -1,0 +1,1 @@
+const uyghur={default:["` 1 2 3 4 5 6 7 8 9 0 - = {bksp}","{tab} چ ۋ ې ر ت ي ۇ ڭ و پ ] [ /","{lock} ھ س د ا ە ى ق ك ل ؛ : {enter}","{shift} ز ش غ ۈ ب ن م ، . ئ {shift}",".com @ {space}"],shift:["~ ! @ # $ % ^ & * ) ( - + {bksp}","{tab} چ ۋ ې ر ت ي ۇ ڭ و » « \\","{lock} ھ س ژ ف گ خ ج ۆ ل ؛ | {enter}","{shift} ز ش غ ۈ ب ن م ‹ › ؟ {shift}",".com @ {space}"]};export default uyghur;
