@@ -21,6 +21,7 @@ import nigerian from "../layouts/nigerian";
 import norwegian from "../layouts/norwegian";
 import polish from "../layouts/polish";
 import russian from "../layouts/russian";
+import russianOld from "../layouts/russian-old.js";
 import sindhi from "../layouts/sindhi";
 import spanish from "../layouts/spanish";
 import swedish from "../layouts/swedish";
@@ -55,6 +56,7 @@ class SimpleKeyboardLayouts {
     norwegian,
     polish,
     russian,
+    russianOld,
     sindhi,
     spanish,
     swedish,
