@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-      "outDir": "build/layouts",
+      "outDir": "build",
       "module": "esnext",
       "target": "es5",
       "declaration": false,
