@@ -1,12 +1,10 @@
-#root {
+body {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
     Helvetica, Arial, "Lucida Grande", sans-serif;
   max-width: 850px;
-  margin: 0 auto;
-  padding-top: 20px;
 }
 
-#root .simple-keyboard-preview {
+.simple-keyboard-preview {
   background: rgba(0, 0, 0, 0.8);
   border: 20px solid rgba(0, 0, 0, 0.1);
   height: 200px;
@@ -16,7 +14,7 @@
   box-sizing: border-box;
 }
 
-#root .input {
+.input {
   color: rgba(255, 255, 255, 0.9);
   background: transparent;
   border: none;

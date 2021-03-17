@@ -1,1 +1,0 @@
-const chinese={default:["€ ㄅ ㄉ ˇ ˋ ㄓ ˊ ˙ ㄚ ㄞ ㄢ ㄦ = {bksp}","{tab} ㄆ ㄊ ㄍ ㄐ ㄔ ㄗ ㄧ ㄛ ㄟ ㄣ [ ] \\","{lock} ㄇ ㄋ ㄎ ㄑ ㄕ ㄘ ㄨ ㄜ ㄠ ㄤ ' {enter}","{shift} ㄈ ㄌ ㄏ ㄒ ㄖ ㄙ ㄩ ㄝ ㄡ ㄥ",".com @ {space}"],shift:["~ ! @ # $ % ^ & * ) ( _ + {bksp}","{tab} q w e r t y u i o p { } |",'{lock} a s d f g h j k l : " {enter}',"{shift} z x c v b n m , < > ? {shift}",".com @ {space}"]};export default chinese;
