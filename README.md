@@ -1,4 +1,4 @@
-<a href="https://hodgef.com/simple-keyboard/demos" title="View Demo" target="_blank"><img src="https://i.imgur.com/VfSCVSS.png"></a>
+<a href="https://hodgef.com/simple-keyboard/demos" title="View Demo" target="_blank"><img src="https://i.imgur.com/UNonjFz.png"></a>
 
 <blockquote>The keyboard layout kit for simple-keyboard.</blockquote>
 
