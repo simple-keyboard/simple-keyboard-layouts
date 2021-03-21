@@ -43,6 +43,7 @@ To fully customize your virtual keyboard, check out the main [simple-keyboard re
 - [Norwegian](https://hodgef.com/simple-keyboard/demos/?d=norwegian) - by [Prakriti Tiwari](https://github.com/prakriti89)
 - [Polish](https://hodgef.com/simple-keyboard/demos/?d=polish) - by [maciej-sielski](https://github.com/maciej-sielski)
 - [Russian](https://hodgef.com/simple-keyboard/demos/?d=russian)
+- [Russian Old](https://hodgef.com/simple-keyboard/demos/?d=russian-old) - by [maxshuty](https://github.com/maxshuty)
 - [Sindhi](https://hodgef.com/simple-keyboard/demos/?d=sindhi) - by [Salman Sattar](https://github.com/salman65)
 - [Spanish](https://hodgef.com/simple-keyboard/demos/?d=spanish)
 - [Swedish](https://hodgef.com/simple-keyboard/demos/?d=swedish) - by [wpressdev](https://github.com/wpressdev)

@@ -1,5 +1,5 @@
 name: Build
-on: [push, pull_request]
+on: [push]
 
 jobs:
   build:
@@ -9,16 +9,15 @@ jobs:
         node-version: [12.x]
         os: [ubuntu-latest]
     steps:
-    - uses: actions/checkout@v1
-    - name: Use Node.js ${{ matrix.node_version }}
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node_version }}
-    - name: npm install, build, and test
-      run: |
-        npm install
-        npm run start -- --testMode
-        npm run demo
-      env:
-        CI: true
-        
+      - uses: actions/checkout@v1
+      - name: Use Node.js ${{ matrix.node_version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node_version }}
+      - name: npm install, build, and test
+        run: |
+          npm install
+          npm run test
+        env:
+          CI: true
+
