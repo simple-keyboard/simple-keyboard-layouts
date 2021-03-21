@@ -21,11 +21,6 @@ export default <LayoutItem>{
       ".com @ {space}",
     ],
   },
-  excludeFromLayout: {
-    default: [".com", "@"],
-    shift: [".com", "@"],
-  },
-  modules: [],
   layoutCandidates: {
     a: "阿 啊 呵 腌 嗄 吖 锕",
     e:
