@@ -14,16 +14,11 @@ export default {
         shift: [
             "~ ! @ # $ % ^ & * ) ( _ + {bksp}",
             "{tab} Q W E R T Y U I O P { } |",
-            '{lock} A S D F G H J K L : "{enter}',
+            "{lock} A S D F G H J K L : {enter}",
             "{shift} Z X C V B N M < > ? {shift}",
             ".com @ {space}",
         ],
     },
-    excludeFromLayout: {
-        default: [".com", "@"],
-        shift: [".com", "@"],
-    },
-    modules: [],
     layoutCandidates: {
         a: "阿 啊 呵 腌 嗄 吖 锕",
         e: "额 阿 俄 恶 鹅 遏 鄂 厄 饿 峨 扼 娥 鳄 哦 蛾 噩 愕 讹 锷 垩 婀 鹗 萼 谔 莪 腭 锇 颚 呃 阏 屙 苊 轭",
