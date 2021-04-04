@@ -11,6 +11,7 @@
       "suppressImplicitAnyIndexErrors": true,
       "lib": ["es2018", "dom"],
       "moduleResolution": "node",
+      "strict": true
     },
     "include": ["src/lib"],
     "exclude": ["src/lib/**/tests"],
