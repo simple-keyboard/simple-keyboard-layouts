@@ -61,7 +61,7 @@
     "jest": "^26.6.3",
     "mini-css-extract-plugin": "^1.6.1",
     "optimize-css-assets-webpack-plugin": "^6.0.1",
-    "prettier": "^2.3.1",
+    "prettier": "^2.3.2",
     "prettier-webpack-plugin": "^1.2.0",
     "simple-keyboard": "3.1.54",
     "style-loader": "^3.0.0",
