@@ -1,9 +1,15 @@
 name: Build
-on: [push]
+on:
+  push:
+    paths-ignore:
+      - README.md
+      - .gitignore
+      - .github/**
 
 jobs:
   build:
     runs-on: ${{ matrix.os }}
+    if: contains(github.ref, 'master')
     strategy:
       matrix:
         node-version: [12.x]
@@ -20,4 +26,3 @@ jobs:
           npm run test
         env:
           CI: true
-
