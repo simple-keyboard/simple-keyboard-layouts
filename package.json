@@ -63,7 +63,7 @@
     "optimize-css-assets-webpack-plugin": "^6.0.1",
     "prettier": "^2.3.2",
     "prettier-webpack-plugin": "^1.2.0",
-    "simple-keyboard": "3.2.34",
+    "simple-keyboard": "3.2.35",
     "style-loader": "^3.2.1",
     "terser-webpack-plugin": "^5.1.4",
     "typescript": "^4.3.5",
