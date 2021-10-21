@@ -3,7 +3,7 @@
 <blockquote>The keyboard layout kit for simple-keyboard.</blockquote>
 
 [![npm version](https://badgen.net/npm/v/simple-keyboard-layouts?color=blue)](https://www.npmjs.com/package/simple-keyboard-layouts)
-<a href="https://github.com/hodgef/simple-keyboard-layouts"><img src="https://img.shields.io/github/last-commit/hodgef/simple-keyboard-layouts" alt="lastest commit"></a> <a href="https://github.com/simple-keyboard/simple-keyboard-layouts/actions"><img alt="Build Status" src="https://github.com/simple-keyboard/simple-keyboard-layouts/workflows/Build/badge.svg?color=green" /></a> <a href="https://github.com/simple-keyboard/simple-keyboard-layouts/actions"><img alt="Publish Status" src="https://github.com/simple-keyboard/simple-keyboard-layouts/workflows/Publish/badge.svg?color=green" /></a>
+<a href="https://github.com/hodgef/simple-keyboard-layouts/blob/master/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="MIT license"></a> <a href="https://github.com/simple-keyboard/simple-keyboard-layouts/actions"><img alt="Build Status" src="https://github.com/simple-keyboard/simple-keyboard-layouts/workflows/Build/badge.svg?color=green" /></a> <a href="https://github.com/simple-keyboard/simple-keyboard-layouts/actions"><img alt="Publish Status" src="https://github.com/simple-keyboard/simple-keyboard-layouts/workflows/Publish/badge.svg?color=green" /></a> <a href="https://gitlab.com/hodgef/simple-keyboard-layouts" target="_blank"><img alt="Mirroring" src="https://github.com/hodgef/simple-keyboard-layouts/actions/workflows/mirroring.yml/badge.svg" /></a>
 
 ## ✨ Demo
 
