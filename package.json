@@ -1,9 +1,8 @@
 {
   "name": "simple-keyboard-layouts",
-  "version": "3.0.235",
+  "version": "3.1.0",
   "description": "Layouts module for simple-keyboard",
   "main": "build/index.js",
-  "types": "build/types/index.d.ts",
   "scripts": {
     "start": "webpack serve --config webpack.config.demo.js",
     "build": "webpack && tsc && npm run buildLayouts",
