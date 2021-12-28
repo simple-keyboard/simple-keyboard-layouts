@@ -2,7 +2,6 @@ import { LayoutItem } from "../interfaces";
 
 /**
  * Layout: Tamil
- * Source: yogishp (https://github.com/yogishp)
  */
 export default <LayoutItem>{
   layout: {
