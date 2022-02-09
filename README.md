@@ -35,6 +35,7 @@ To fully customize your virtual keyboard, check out the main [simple-keyboard re
 - [Greek](https://hodgef.com/simple-keyboard/demos/?d=greek) - by [maciej-sielski](https://github.com/maciej-sielski)
 - [Hebrew](https://hodgef.com/simple-keyboard/demos/?d=hebrew) - by [vleon1](https://github.com/vleon1)
 - [Hindi](https://hodgef.com/simple-keyboard/demos/?d=hindi)
+- [Hungarian](https://hodgef.com/simple-keyboard/demos/?d=hungarian) - by [Farquaad](https://github.com/Farquaad)
 - [Italian](https://hodgef.com/simple-keyboard/demos/?d=italian)
 - [Japanese](https://hodgef.com/simple-keyboard/demos/?d=japanese)
 - [Kannada](https://hodgef.com/simple-keyboard/demos/?d=kannada) - by [yogishp](https://github.com/yogishp)

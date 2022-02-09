@@ -2,6 +2,7 @@ import { LayoutItem } from "../interfaces";
 
 /**
  * Layout: Hungarian
+ * Source: Farquaad (https://github.com/Farquaad)
  */
 export default <LayoutItem>{
   layout: {
