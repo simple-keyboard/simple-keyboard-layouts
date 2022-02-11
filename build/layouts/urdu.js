@@ -6,7 +6,7 @@ export default {
     layout: {
         default: [
             "` \u0661 \u0662 \u0663 \u0664 \u0665 \u0666 \u0667 \u0668 \u0669 \u0660 - = {bksp}",
-            "{tab} \u0642 \uFEED \u0639 \u0631 \u062A \u06D2 \u0621 \u0649 \uFBA6 \u067E [ ]",
+            "{tab} \u0642 \u0648 \u0639 \u0631 \u062A \u06D2 \u0621 \u0649 \u06C1 \u067E [ ]",
             "{lock} \u0627 \u0633 \u062F \u0641 \u06AF \u06BE \u062C \u06A9 \u0644 \u061B \u060C {enter}",
             "{shift} \u0632 \u0634 \u0686 \u0637 \u0628 \u0646 \u0645 \u06E4 , . / {shift}",
             ".com @ {space}",
