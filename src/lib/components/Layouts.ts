@@ -21,7 +21,7 @@ import italian from "../layouts/italian";
 import japanese from "../layouts/japanese";
 import kannada from "../layouts/kannada";
 import korean from "../layouts/korean";
-import malayalam from "../layouts/malayalam"
+import malayalam from "../layouts/malayalam";
 import nigerian from "../layouts/nigerian";
 import norwegian from "../layouts/norwegian";
 import polish from "../layouts/polish";
