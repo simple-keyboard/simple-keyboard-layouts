@@ -16,7 +16,7 @@ export default <LayoutItem>{
       "\u0D4A ! @ # $ % ^ & * ) ( _ \u0D43 {bksp}",
       "{tab} \u0D4C \u0D48 \u0D3E \u0D40 \u0D42 \u0D2C \u0D39 \u0D17 \u0D26 \u0D1C \u0D21 \u0D4E \\",
       "{lock} \u0D4B \u0D47 \u0D4D \u0D3F \u0D41 \u0D2A \u0D30 \u0D15 \u0D24 \u0D1A \u0D1F {enter}",
-      "{shift} \u0D46 \u0D02 \u0D2E \u0D28 \u0D35 \u0D32 \u0D38  . \u0D2F {shift}",
+      "{shift} \u0D46 \u0D02 \u0D2E \u0D28 \u0D35 \u0D32 \u0D38 . \u0D2F {shift}",
       ".com @ {space}",
     ],
   },
