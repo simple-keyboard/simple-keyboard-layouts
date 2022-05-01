@@ -6,17 +6,17 @@ import { LayoutItem } from "../interfaces";
 export default <LayoutItem>{
   layout: {
     default: [
-      "\U+07F7 \U+07C1 \U+07C2 \U+07C3 \U+07C4 \U+07C5 \U+07C6 \U+07C7 \U+07C8 \U+07C9 \U+07C0 \U+07CA = {bksp}",
-      "{tab} \U+07D2 \U+07FE5 \U+07FA \U+07CB \U+07D9 \U+07D5 \U+07E6 \U+07CE \U+07CC \U+07D0 \U+07D4 [ ] \\",
-      "{lock} \U+07CA \U+07DB \U+07D8 \U+07DD \U+07DC \U+07E4 \U+07D6 \U+07DE \U+07DF \U+07F8 \U+07F4 {enter}",
-      "{shift} \U+07E2 \U+07CF \U+07D7 \U+07CD \U+07D3 \U+07E3 \U+07E1 \U+07F2 \U+07CF3 \0x2E2E {shift}",
+      "\u07F7 \u07C1 \u07C2 \u07C3 \u07C4 \u07C5 \u07C6 \u07C7 \u07C8 \u07C9 \u07C0 \u07FA = {bksp}",
+      "{tab} \u07D2 \u07E5 \u07CB \u07D9 \u07D5 \u07E6 \u07CE \u07CC \u07D0 \u07D4 [ ] \\",
+      "{lock} \u07CA \u07DB \u07D8 \u07DD \u07DC \u07E4 \u07D6 \u07DE \u07DF \u07F8 \u07F4 {enter}",
+      "{shift} \u07E2 \u07CF \u07D7 \u07CD \u07D3 \u07E3 \u07E1 \u07F2 \u07F3 \u2E2E {shift}",
       ".com @ {space}",
     ],
     shift: [
       "~ ! @ # $ % ^ & * ( ) _ + {bksp}",
-      "{tab} \U+07D1 \U+07E0   \U+07DA \U+07DA \U+07E7          { } |",
-      '{lock} \U+07FD \U+07F2 \U+07F3 \U+07F8 \U+07F9 \U+07FA \U+07FE \U+07FF \U+07F6 \U+07F9 \U+07F5 {enter}',
-      "{shift} \U+07EB \U+07EC \U+07ED \U+07EE \U+07EF \U+07F0 \U+07F1  < > \U+07FD {shift}",
+      "{tab} \u07D1 \u07E0  \u07DA  \u07E7     { } |",
+      '{lock} \u07FD \u07F2 \u07F3 \u07F8 \u07F9 \u07FA \u07FE \u07FF \u07F6 \u07F9 \u07F5 {enter}',
+      "{shift} \u07EB \u07EC \u07ED \u07EE \u07EF \u07F0 \u07F1 < > \u07FD {shift}",
       ".com @ {space}",
     ],
   },
