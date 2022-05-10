@@ -16,7 +16,7 @@ export default <LayoutItem>{
     shift: [
       "~ ! @ # $ % ^ & * ( ) _ + {bksp}",
       "{tab} \u07D1 \u07E0  \u07DA  \u07E7     { } |",
-      '{lock} \u07FD \u07F2 \u07F3 \u07F8 \u07F9 \u07FA \u07FE \u07FF \u07F6 \u07F9 \u07F5 {enter}',
+      "{lock} \u07FD \u07F2 \u07F3 \u07F8 \u07F9 \u07FA \u07FE \u07FF \u07F6 \u07F9 \u07F5 {enter}",
       "{shift} \u07EB \u07EC \u07ED \u07EE \u07EF \u07F0 \u07F1 < > \u07FD {shift}",
       ".com @ {space}",
     ],
