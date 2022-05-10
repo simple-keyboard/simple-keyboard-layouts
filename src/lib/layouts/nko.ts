@@ -2,6 +2,7 @@ import { LayoutItem } from "../interfaces";
 
 /**
  * Layout: N'ko
+ * Source: kjitteh (https://github.com/kjitteh)
  */
 export default <LayoutItem>{
   layout: {
