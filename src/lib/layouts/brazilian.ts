@@ -1,7 +1,7 @@
 import { LayoutItem } from "../interfaces";
 
 /**
- * Layout: English
+ * Layout: Brazilian
  */
 export default <LayoutItem>{
   layout: {
