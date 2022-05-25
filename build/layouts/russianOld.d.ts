@@ -1,7 +1,7 @@
 import { LayoutItem } from "../interfaces";
-declare const _default: LayoutItem;
 /**
  * Layout: Russian Old
  * Source: maxshuty (https://github.com/maxshuty)
  */
+declare const _default: LayoutItem;
 export default _default;

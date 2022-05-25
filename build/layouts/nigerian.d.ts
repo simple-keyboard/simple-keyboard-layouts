@@ -1,7 +1,7 @@
 import { LayoutItem } from "../interfaces";
-declare const _default: LayoutItem;
 /**
  * Layout: Nigerian
  * Source: Benson Muite (https://github.com/bkmgit)
  */
+declare const _default: LayoutItem;
 export default _default;
