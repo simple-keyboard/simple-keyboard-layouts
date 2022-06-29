@@ -76,6 +76,7 @@ class SimpleKeyboardLayouts {
     ukrainian,
     urdu,
     uyghur,
+    odiya,
   };
 
   public get = (layout?: string): LayoutItem | LayoutItemObj =>
