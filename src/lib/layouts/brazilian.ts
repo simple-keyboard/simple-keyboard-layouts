@@ -13,9 +13,9 @@ export default <LayoutItem>{
       ".com @ {space}",
     ],
     shift: [
-      "\" ! @ # $ % \u0308 & * ( ) _ + {bksp}",
+      '" ! @ # $ % \u0308 & * ( ) _ + {bksp}',
       "{tab} Q W E R T Y U I O P ` {",
-      '{lock} A S D F G H J K L \u00C7 ^ } {enter}',
+      "{lock} A S D F G H J K L \u00C7 ^ } {enter}",
       "{shift} | Z X C V B N M < > : ? {shift}",
       ".com @ {space}",
     ],
