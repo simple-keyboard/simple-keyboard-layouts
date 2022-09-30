@@ -1,10 +1,9 @@
 const path = require('path');
 const webpack = require('webpack');
-const PrettierPlugin = require("prettier-webpack-plugin");
 const TerserPlugin = require('terser-webpack-plugin');
 const getPackageJson = require('./scripts/getPackageJson');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
+const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 
 const {
   version,
@@ -39,7 +38,7 @@ module.exports = {
     minimize: true,
     minimizer: [
       new TerserPlugin({ extractComments: false }),
-      new OptimizeCSSAssetsPlugin()
+      new CssMinimizerPlugin()
     ],
   },
   devServer: {
@@ -72,7 +71,6 @@ module.exports = {
     ]
   },
   plugins: [
-    new PrettierPlugin(),
     new MiniCssExtractPlugin({
         filename: 'index.css'
     }),

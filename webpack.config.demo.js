@@ -1,6 +1,5 @@
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const PrettierPlugin = require("prettier-webpack-plugin");
 
 module.exports = {
   mode: "development",
@@ -41,7 +40,6 @@ module.exports = {
     ]
   },
   plugins: [
-    new PrettierPlugin(),
     new MiniCssExtractPlugin({
       filename: 'css/index.css'
     }),
