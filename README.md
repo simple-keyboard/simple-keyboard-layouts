@@ -17,7 +17,7 @@ To fully customize your virtual keyboard, check out the main [simple-keyboard re
 
 ## 📃 Supported Layouts
 
-> [Click here to browse the layout files](https://github.com/hodgef/simple-keyboard-layouts/tree/master/src/lib/layouts)
+<blockquote><a href="https://github.com/hodgef/simple-keyboard-layouts/tree/master/src/lib/layouts">Click here to browse the layout files</a></blockquote>
 
 - [Arabic](https://hodgef.com/simple-keyboard/demos/?d=arabic)
 - [Assamese](https://hodgef.com/simple-keyboard/demos/?d=assamese) - by [Akhilesh](https://github.com/akki2825)
