@@ -3,6 +3,7 @@ import { LayoutItem, LayoutItemObj } from "./../interfaces";
 import arabic from "../layouts/arabic";
 import assamese from "../layouts/assamese";
 import belarusian from "../layouts/belarusian";
+import balochi from "../layouts/balochi";
 import bengali from "../layouts/bengali";
 import brazilian from "../layouts/brazilian";
 import burmese from "../layouts/burmese";
@@ -43,6 +44,7 @@ class SimpleKeyboardLayouts {
     arabic,
     assamese,
     belarusian,
+    balochi,
     bengali,
     brazilian,
     burmese,
