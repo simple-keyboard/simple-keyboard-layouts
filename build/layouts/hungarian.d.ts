@@ -1,7 +1,7 @@
 import { LayoutItem } from "../interfaces";
-declare const _default: LayoutItem;
 /**
  * Layout: Hungarian
  * Source: Farquaad (https://github.com/Farquaad)
  */
+declare const _default: LayoutItem;
 export default _default;

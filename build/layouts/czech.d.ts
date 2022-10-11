@@ -1,7 +1,7 @@
 import { LayoutItem } from "../interfaces";
-declare const _default: LayoutItem;
 /**
  * Layout: Czech
  * Source: Dmitry Dalimov (https://github.com/slavabogov)
  */
+declare const _default: LayoutItem;
 export default _default;

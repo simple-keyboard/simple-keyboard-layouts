@@ -17,12 +17,13 @@ To fully customize your virtual keyboard, check out the main [simple-keyboard re
 
 ## 📃 Supported Layouts
 
-> [Click here to browse the layout files](https://github.com/hodgef/simple-keyboard-layouts/tree/master/src/lib/layouts)
+<blockquote><a href="https://github.com/hodgef/simple-keyboard-layouts/tree/master/src/lib/layouts">Click here to browse the layout files</a></blockquote>
 
 - [Arabic](https://hodgef.com/simple-keyboard/demos/?d=arabic)
 - [Assamese](https://hodgef.com/simple-keyboard/demos/?d=assamese) - by [Akhilesh](https://github.com/akki2825)
 - [Belarusian](https://hodgef.com/simple-keyboard/demos/?d=belarusian) - by [maxshuty](https://github.com/maxshuty)
 - [Bengali](https://hodgef.com/simple-keyboard/demos/?d=bengali) - by [adnan360](https://github.com/adnan360)
+- [Brazilian](https://hodgef.com/simple-keyboard/demos/?d=brazilian) - by [imbroisi](https://github.com/imbroisi)
 - [Burmese](https://hodgef.com/simple-keyboard/demos/?d=burmese) - by [U Kyi Win](https://github.com/ukyiwin)
 - [Chinese](https://hodgef.com/simple-keyboard/demos/?d=chinese)
 - [Czech](https://hodgef.com/simple-keyboard/demos/?d=czech) - by [Dmitry Dalimov](https://github.com/slavabogov)
@@ -41,7 +42,9 @@ To fully customize your virtual keyboard, check out the main [simple-keyboard re
 - [Kannada](https://hodgef.com/simple-keyboard/demos/?d=kannada) - by [yogishp](https://github.com/yogishp)
 - [Korean](https://hodgef.com/simple-keyboard/demos/?d=korean)
 - [Nigerian](https://hodgef.com/simple-keyboard/demos/?d=nigerian) - by [Benson Muite](https://github.com/bkmgit)
+- [N'ko](https://hodgef.com/simple-keyboard/demos/?d=nko) - by [kjitteh](https://github.com/kjitteh)
 - [Norwegian](https://hodgef.com/simple-keyboard/demos/?d=norwegian) - by [Prakriti Tiwari](https://github.com/prakriti89)
+- [Malayalam](https://hodgef.com/simple-keyboard/demos/?d=malayalam) - by [Sajad J](https://github.com/4gon)
 - [Polish](https://hodgef.com/simple-keyboard/demos/?d=polish) - by [maciej-sielski](https://github.com/maciej-sielski)
 - [Russian](https://hodgef.com/simple-keyboard/demos/?d=russian)
 - [Russian Old](https://hodgef.com/simple-keyboard/demos/?d=russian-old) - by [maxshuty](https://github.com/maxshuty)

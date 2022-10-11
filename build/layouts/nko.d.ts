@@ -1,7 +1,7 @@
 import { LayoutItem } from "../interfaces";
 /**
- * Layout: Kannada
- * Source: yogishp (https://github.com/yogishp)
+ * Layout: N'ko
+ * Source: kjitteh (https://github.com/kjitteh)
  */
 declare const _default: LayoutItem;
 export default _default;

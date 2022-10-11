@@ -4,6 +4,7 @@ import arabic from "../layouts/arabic";
 import assamese from "../layouts/assamese";
 import belarusian from "../layouts/belarusian";
 import bengali from "../layouts/bengali";
+import brazilian from "../layouts/brazilian";
 import burmese from "../layouts/burmese";
 import chinese from "../layouts/chinese";
 import czech from "../layouts/czech";
@@ -21,7 +22,9 @@ import italian from "../layouts/italian";
 import japanese from "../layouts/japanese";
 import kannada from "../layouts/kannada";
 import korean from "../layouts/korean";
+import malayalam from "../layouts/malayalam";
 import nigerian from "../layouts/nigerian";
+import nko from "../layouts/nko";
 import norwegian from "../layouts/norwegian";
 import polish from "../layouts/polish";
 import russian from "../layouts/russian";
@@ -42,6 +45,7 @@ class SimpleKeyboardLayouts {
     assamese,
     belarusian,
     bengali,
+    brazilian,
     burmese,
     chinese,
     czech,
@@ -60,7 +64,9 @@ class SimpleKeyboardLayouts {
     kannada,
     korean,
     nigerian,
+    nko,
     norwegian,
+    malayalam,
     polish,
     russian,
     russianOld,

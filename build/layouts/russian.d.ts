@@ -1,6 +1,6 @@
 import { LayoutItem } from "../interfaces";
-declare const _default: LayoutItem;
 /**
  * Layout: Russian
  */
+declare const _default: LayoutItem;
 export default _default;

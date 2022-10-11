@@ -1,7 +1,7 @@
 import { LayoutItem } from "../interfaces";
-declare const _default: LayoutItem;
 /**
  * Layout: Swedish
  * Source: wpressdev (https://github.com/wpressdev)
  */
+declare const _default: LayoutItem;
 export default _default;
