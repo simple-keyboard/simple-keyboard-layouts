@@ -36,6 +36,7 @@ import thai from "../layouts/thai";
 import turkish from "../layouts/turkish";
 import ukrainian from "../layouts/ukrainian";
 import urdu from "../layouts/urdu";
+import urduStandard from "../layouts/urduStandard";
 import uyghur from "../layouts/uyghur";
 
 class SimpleKeyboardLayouts {
@@ -76,6 +77,7 @@ class SimpleKeyboardLayouts {
     turkish,
     ukrainian,
     urdu,
+    urduStandard,
     uyghur,
   };
 
