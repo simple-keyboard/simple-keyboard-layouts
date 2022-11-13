@@ -17,7 +17,7 @@ export default <LayoutItem>{
       "~ ! @ # $ \u066A ^ \u06D6 * ) ( - + {bksp}",
       "{tab} \u0638 \u0636 \u0630 \u0688 \u062B \u0303 \u06C3 \u0640 \u0686 \u062E } { |",
       "{lock} \u0698 \u0632 \u0691 \u06BA \u06C2 \u0621 \u0622 \u06AF \u064A \u0703 \u05f4 {enter}",
-      "{shift} \u06D3 \u0624 \u0626 > < \u061F {shift}",
+      "{shift} \u06D3 \u0624 \u0626     > < \u061F {shift}",
       ".com @ {space}",
     ],
   },
