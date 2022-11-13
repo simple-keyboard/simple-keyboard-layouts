@@ -21,6 +21,7 @@ To fully customize your virtual keyboard, check out the main [simple-keyboard re
 
 - [Arabic](https://hodgef.com/simple-keyboard/demos/?d=arabic)
 - [Assamese](https://hodgef.com/simple-keyboard/demos/?d=assamese) - by [Akhilesh](https://github.com/akki2825)
+- [Balochi](https://hodgef.com/simple-keyboard/demos/?d=balochi) - by [umairayub79](https://github.com/umairayub79)
 - [Belarusian](https://hodgef.com/simple-keyboard/demos/?d=belarusian) - by [maxshuty](https://github.com/maxshuty)
 - [Bengali](https://hodgef.com/simple-keyboard/demos/?d=bengali) - by [adnan360](https://github.com/adnan360)
 - [Brazilian](https://hodgef.com/simple-keyboard/demos/?d=brazilian) - by [imbroisi](https://github.com/imbroisi)
