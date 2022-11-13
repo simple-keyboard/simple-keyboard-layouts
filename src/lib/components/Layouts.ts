@@ -43,8 +43,8 @@ class SimpleKeyboardLayouts {
   layouts: LayoutItemObj = {
     arabic,
     assamese,
-    belarusian,
     balochi,
+    belarusian,
     bengali,
     brazilian,
     burmese,
