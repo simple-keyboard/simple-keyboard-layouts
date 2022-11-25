@@ -42,6 +42,7 @@ To fully customize your virtual keyboard, check out the main [simple-keyboard re
 - [Japanese](https://hodgef.com/simple-keyboard/demos/?d=japanese)
 - [Kannada](https://hodgef.com/simple-keyboard/demos/?d=kannada) - by [yogishp](https://github.com/yogishp)
 - [Korean](https://hodgef.com/simple-keyboard/demos/?d=korean)
+- [Kurdish](https://hodgef.com/simple-keyboard/demos/?d=kurdish) - by [Goran Gharib](https://github.com/GoRaN909)
 - [Nigerian](https://hodgef.com/simple-keyboard/demos/?d=nigerian) - by [Benson Muite](https://github.com/bkmgit)
 - [N'ko](https://hodgef.com/simple-keyboard/demos/?d=nko) - by [kjitteh](https://github.com/kjitteh)
 - [Norwegian](https://hodgef.com/simple-keyboard/demos/?d=norwegian) - by [Prakriti Tiwari](https://github.com/prakriti89)
