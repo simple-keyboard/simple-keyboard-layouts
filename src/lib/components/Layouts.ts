@@ -66,6 +66,7 @@ class SimpleKeyboardLayouts {
     japanese,
     kannada,
     korean,
+    kurdish,
     nigerian,
     nko,
     norwegian,
