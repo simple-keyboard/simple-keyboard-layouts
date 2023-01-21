@@ -28,6 +28,7 @@ import malayalam from "../layouts/malayalam";
 import nigerian from "../layouts/nigerian";
 import nko from "../layouts/nko";
 import norwegian from "../layouts/norwegian";
+import odia from "../layouts/odia";
 import polish from "../layouts/polish";
 import russian from "../layouts/russian";
 import russianOld from "../layouts/russianOld";
@@ -67,10 +68,11 @@ class SimpleKeyboardLayouts {
     kannada,
     korean,
     kurdish,
+    malayalam,
     nigerian,
     nko,
     norwegian,
-    malayalam,
+    odia,
     polish,
     russian,
     russianOld,
