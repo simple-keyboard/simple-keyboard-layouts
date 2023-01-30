@@ -35,6 +35,7 @@ import russianOld from "../layouts/russianOld";
 import sindhi from "../layouts/sindhi";
 import spanish from "../layouts/spanish";
 import swedish from "../layouts/swedish";
+import telugu from "../layouts/telugu";
 import thai from "../layouts/thai";
 import turkish from "../layouts/turkish";
 import ukrainian from "../layouts/ukrainian";
@@ -79,6 +80,7 @@ class SimpleKeyboardLayouts {
     sindhi,
     spanish,
     swedish,
+    telugu,
     thai,
     turkish,
     ukrainian,
