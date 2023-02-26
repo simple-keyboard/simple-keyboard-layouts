@@ -30,11 +30,13 @@ import nko from "../layouts/nko";
 import norwegian from "../layouts/norwegian";
 import odia from "../layouts/odia";
 import polish from "../layouts/polish";
+import punjabi from "../layouts/punjabi";
 import russian from "../layouts/russian";
 import russianOld from "../layouts/russianOld";
 import sindhi from "../layouts/sindhi";
 import spanish from "../layouts/spanish";
 import swedish from "../layouts/swedish";
+import telugu from "../layouts/telugu";
 import thai from "../layouts/thai";
 import turkish from "../layouts/turkish";
 import ukrainian from "../layouts/ukrainian";
@@ -74,11 +76,13 @@ class SimpleKeyboardLayouts {
     norwegian,
     odia,
     polish,
+    punjabi,
     russian,
     russianOld,
     sindhi,
     spanish,
     swedish,
+    telugu,
     thai,
     turkish,
     ukrainian,
