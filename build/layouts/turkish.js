@@ -1,6 +1,6 @@
 /**
- * Layout: Swedish
- * Source: wpressdev (https://github.com/wpressdev)
+ * Layout: Turkish
+ * Source: Caglar Turali (https://github.com/caglarturali)
  */
 export default {
     layout: {
