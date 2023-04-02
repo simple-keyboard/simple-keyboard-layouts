@@ -26,6 +26,6 @@ import { LayoutItem } from "../interfaces";
        '{lock} \e258 S D F G \e252 J K \e26A : " {enter}',
        "{shift} Z \e25E C \e261 B N M < > ? {shift}",
        ".com @ {space}",
-     ],
+     ]
    },
  };
