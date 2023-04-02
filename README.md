@@ -44,6 +44,7 @@ To fully customize your virtual keyboard, check out the main [simple-keyboard re
 - [Korean](https://hodgef.com/simple-keyboard/demos/?d=korean)
 - [Kurdish](https://hodgef.com/simple-keyboard/demos/?d=kurdish) - by [Goran Gharib](https://github.com/GoRaN909)
 - [Malayalam](https://hodgef.com/simple-keyboard/demos/?d=malayalam) - by [Sajad J](https://github.com/4gon)
+- [Ndebe](https://hodgef.com/simple-keyboard/demos/?d=ndebe) - by [Lotanna Igwe-Odunze](https://github.com/odunze) for [The Ndebe Project](https://github.com/ndebeproject)
 - [Nigerian](https://hodgef.com/simple-keyboard/demos/?d=nigerian) - by [Benson Muite](https://github.com/bkmgit)
 - [N'ko](https://hodgef.com/simple-keyboard/demos/?d=nko) - by [kjitteh](https://github.com/kjitteh)
 - [Norwegian](https://hodgef.com/simple-keyboard/demos/?d=norwegian) - by [Prakriti Tiwari](https://github.com/prakriti89)
