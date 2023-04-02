@@ -7,17 +7,17 @@ import { LayoutItem } from "../interfaces";
  export default <LayoutItem>{
    layout: {
      default: [
-       "` \e101 \e102 \e103 \e104 \e105 \e106 \e107 \e108 \e109 \e100 - = {bksp}",
-       "{tab} \e25A \e300 \e254 \e351 \e350 \e301 \e266 \e354 \e263 \e255 [ ] \\",
-       "{lock} \e257 \e302 \e353 \e352 \e303 \e251 \e355 \e304 \e269 ; ' {enter}",
-       "{shift} \e356 \e25D \e305 \e260 \e26B \e26C \e26D , . / {shift}",
+       "` \uE101 \uE102 \uE103 \uE104 \uE105 \uE106 \uE107 \uE108 \uE109 \uE100 - = {bksp}",
+       "{tab} \uE25A \uE300 \uE254 \uE351 \uE350 \uE301 \uE266 \uE354 \uE263 \uE255 [ ] \\",
+       "{lock} \uE257 \uE302 \uE353 \uE352 \uE303 \uE251 \uE355 \uE304 \uE269 ; ' {enter}",
+       "{shift} \uE356 \uE25D \uE305 \uE260 \uE26B \uE26C \uE26D , . / {shift}",
        ".com @ {space}",
      ],
      shift: [
        "~ ! @ # $ % ^ & * ( ) _ + {bksp}",
-       "{tab} \e259 \e10B \e253 \e10C \e10D \e10E \e265 \e10F \e262 \e25B { } |",
-       '\e10A \e256 \e110 \e111 \e112 \e113 \e250 \e267 \e264 \e268 : " {enter}',
-       "{shift} \e258 \e25C \e252 \e25F \e26A \e25E \e261 < > ? {shift}",
+       "{tab} \uE259 \uE10B \uE253 \uE10C \uE10D \uE10E \uE265 \uE10F \uE262 \uE25B { } |",
+       '\uE10A \uE256 \uE110 \uE111 \uE112 \uE113 \uE250 \uE267 \uE264 \uE268 : " {enter}',
+       "{shift} \uE258 \uE25C \uE252 \uE25F \uE26A \uE25E \uE261 < > ? {shift}",
        ".com @ {space}",
      ]
    },
