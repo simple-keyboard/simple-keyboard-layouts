@@ -1,6 +1,6 @@
 /*!
  * 
- *   simple-keyboard-layouts v3.1.302
+ *   simple-keyboard-layouts v3.1.303
  *   https://github.com/hodgef/simple-keyboard-layouts
  *
  *   Copyright (c) Francisco Hodge (https://github.com/hodgef) and project contributors.
