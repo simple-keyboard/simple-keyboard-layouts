@@ -32,7 +32,9 @@ module.exports = {
     path: path.resolve(__dirname, 'build'),
     library: "SimpleKeyboardLayouts",
     libraryTarget: 'umd',
-    clean: true
+    clean: true,
+    hashFunction: 'xxhash64',
+    chunkFormat: 'module',
   },
   optimization: {
     minimize: true,
