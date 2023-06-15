@@ -1,9 +1,10 @@
-import { LayoutItem } from "../interfaces";
+import { LayoutItem } from '../interfaces';
 
 /**
  * Layout: Armenian Eastern
+ * Source: vidman22 (https://github.com/vidman22)
  */
-export default <LayoutItem> {
+export default <LayoutItem>{
 	layout: {
 		default: [
 			'՝ : ձ յ ՛ , - . « » օ ռ ժ {bksp}',
