@@ -49,6 +49,8 @@ import uyghur from "../layouts/uyghur";
 class SimpleKeyboardLayouts {
   layouts: LayoutItemObj = {
     arabic,
+    armenianEastern,
+    armenianWestern,
     assamese,
     balochi,
     belarusian,
