@@ -2,6 +2,7 @@ import { LayoutItem } from "../interfaces";
 
 /**
  * Layout: Macedonian
+ * Source: Kristijan Jankuloski (https://github.com/KristijanJankuloski)
  */
 export default <LayoutItem>{
   layout: {
