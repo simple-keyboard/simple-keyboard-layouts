@@ -1,5 +1,6 @@
 /**
  * Layout: Macedonian
+ * Source: Kristijan Jankuloski (https://github.com/KristijanJankuloski)
  */
 export default {
     layout: {
