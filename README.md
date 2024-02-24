@@ -62,7 +62,3 @@ To fully customize your virtual keyboard, check out the main [simple-keyboard re
 - [Urdu](https://hodgef.com/simple-keyboard/demos/?d=urdu) - by [Salman Sattar](https://github.com/salman65)
 - [Urdu Standard](https://hodgef.com/simple-keyboard/demos/?d=urdu-standard) - by [Umara Iftikhar](https://github.com/imaneumma)
 - [Uyghur](https://hodgef.com/simple-keyboard/demos/?d=uyghur) - by [Ailiniyazi Maimaiti](https://github.com/memeteli)
-
-## 🌟 Contributing
-
-Contributions are always welcome! Add your own layout by [following these steps](https://github.com/hodgef/simple-keyboard-layouts/wiki/Adding-a-Layout).
