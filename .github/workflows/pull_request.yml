@@ -21,7 +21,7 @@ jobs:
           script: |
             const { execSync } = require('child_process')
             const { commits } = context.payload.pull_request
-            const rawFiles = execSync(`git diff --name-only HEAD HEAD~${commits}`).toString()
+            const files = execSync(`git diff --name-only HEAD HEAD~${commits}`).toString()
             if(files.includes("build")){
               throw "Do not commit the build directory"
             }
