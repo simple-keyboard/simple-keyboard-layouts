@@ -18,12 +18,16 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v14.6
+        
       - uses: actions/github-script@v6
         with:
           script: |
             const { execSync } = require('child_process')
-            const { commits } = context.payload.pull_request
-            const files = execSync(`git diff --name-only HEAD HEAD~${commits}`).toString()
+            const { commits, number } = context.payload.pull_request
+            const files = execSync(`gh pr view ${number} --json files -q '.files[].path'`).toString()
             if(files.includes("lib/layouts") || files.includes("build")){
               throw "Changes to protected locations not allowed."
             }
