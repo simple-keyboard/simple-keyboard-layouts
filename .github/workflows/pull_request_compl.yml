@@ -22,8 +22,8 @@ jobs:
             const { execSync } = require('child_process')
             const { commits, number } = context.payload.pull_request
             const files = execSync(`gh pr view ${number} --json files -q '.files[].path'`).toString()
-            if(files.includes("lib/layouts") || files.includes("build")){
-              throw "Changes to protected locations not allowed."
+            if(files.includes("lib/layouts") || files.includes("build/layouts")){
+              throw "Changes to layouts are not allowed."
             }
         env:
           GH_TOKEN: ${{secrets.GITHUB_TOKEN}}
@@ -42,5 +42,5 @@ jobs:
         uses: peter-evans/close-pull@v1
         with:
           pull-request-number: ${{github.event.number}}
-          comment: "Thank you for contribution, but we are no longer accepting changes to the `lib/layouts` or `build` directories. Please file an issue if you find a bug in the existing layouts."
+          comment: "Thank you for contribution, but we are no longer accepting new or edited layouts. Please file an issue if you find a bug in the existing layouts."
           delete-branch: true
