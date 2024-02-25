@@ -1,8 +1,6 @@
 name: PR Compliance
 
-on: 
-  pull_request_target:
-    types: [opened, edited]
+on: pull_request_target
 
 jobs:
   build:
