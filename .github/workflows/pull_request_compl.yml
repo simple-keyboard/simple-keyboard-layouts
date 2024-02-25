@@ -16,7 +16,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          fetch-depth: 2
+          fetch-depth: 0
 
       - uses: actions/github-script@v6
         with:
@@ -27,7 +27,6 @@ jobs:
             if(files.includes("lib/layouts") || files.includes("build")){
               throw "Changes to protected locations not allowed."
             }
-            console.log(files)
             
       - name: Comment PR
         if: success()
