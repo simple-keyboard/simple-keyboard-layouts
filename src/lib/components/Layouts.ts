@@ -24,6 +24,7 @@ import japanese from "../layouts/japanese";
 import kannada from "../layouts/kannada";
 import korean from "../layouts/korean";
 import kurdish from "../layouts/kurdish";
+import macedonian from "../layouts/macedonian";
 import malayalam from "../layouts/malayalam";
 import nigerian from "../layouts/nigerian";
 import nko from "../layouts/nko";
@@ -70,6 +71,7 @@ class SimpleKeyboardLayouts {
     kannada,
     korean,
     kurdish,
+    macedonian,
     malayalam,
     nigerian,
     nko,
