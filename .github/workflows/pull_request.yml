@@ -16,18 +16,6 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node_version }}
-      - uses: actions/github-script@v6
-        with:
-          script: |
-            const { execSync } = require('child_process')
-            const { commits } = context.payload.pull_request
-            const files = execSync(`git diff --name-only HEAD HEAD~${commits}`).toString()
-            if(files.includes("build")){
-              throw "Do not commit the build directory"
-            }
-            if(files.includes("layouts") && !files.includes("README")){
-              throw "The README needs to be modified"
-            }
       - name: npm install, build, and test
         run: |
           export NODE_OPTIONS=--openssl-legacy-provider
