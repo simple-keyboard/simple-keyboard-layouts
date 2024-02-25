@@ -2,6 +2,7 @@ import { LayoutItem } from "../interfaces";
 
 /**
  * Layout: Armenian Western
+ * Source: vidman22 (https://github.com/vidman22)
  */
 export default <LayoutItem> {
 	layout: {
