@@ -1,6 +1,8 @@
 import { LayoutItem, LayoutItemObj } from "./../interfaces";
 
 import arabic from "../layouts/arabic";
+import armenianEastern from "../layouts/armenianEastern";
+import armenianWestern from "../layouts/armenianWestern";
 import assamese from "../layouts/assamese";
 import balochi from "../layouts/balochi";
 import belarusian from "../layouts/belarusian";
@@ -48,6 +50,8 @@ import uyghur from "../layouts/uyghur";
 class SimpleKeyboardLayouts {
   layouts: LayoutItemObj = {
     arabic,
+    armenianEastern,
+    armenianWestern,
     assamese,
     balochi,
     belarusian,
