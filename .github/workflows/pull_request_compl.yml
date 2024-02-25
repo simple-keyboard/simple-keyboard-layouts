@@ -28,7 +28,7 @@ jobs:
               throw "Changes to protected locations not allowed."
             }
         env:
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          GH_TOKEN: ${{secrets.GITHUB_TOKEN}}
             
       - name: Comment PR
         if: success()
