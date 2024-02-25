@@ -18,10 +18,6 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Get changed files
-        id: changed-files
-        uses: tj-actions/changed-files@v41
-        
       - uses: actions/github-script@v6
         with:
           script: |
@@ -31,6 +27,8 @@ jobs:
             if(files.includes("lib/layouts") || files.includes("build")){
               throw "Changes to protected locations not allowed."
             }
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
             
       - name: Comment PR
         if: success()
@@ -48,5 +46,3 @@ jobs:
           pull-request-number: ${{github.event.number}}
           comment: "Thank you for contribution, but we are no longer accepting changes to the `lib/layouts` or `build` directories. Please file an issue if you find a bug in the existing layouts."
           delete-branch: true
-          
-      
