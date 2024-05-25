@@ -32,6 +32,7 @@ import nigerian from "../layouts/nigerian";
 import nko from "../layouts/nko";
 import norwegian from "../layouts/norwegian";
 import odia from "../layouts/odia";
+import pashtoPhonetic from "../layouts/pashtoPhonetic";
 import polish from "../layouts/polish";
 import punjabi from "../layouts/punjabi";
 import russian from "../layouts/russian";
@@ -81,6 +82,7 @@ class SimpleKeyboardLayouts {
     nko,
     norwegian,
     odia,
+    pashtoPhonetic,
     polish,
     punjabi,
     russian,

@@ -51,6 +51,7 @@ To fully customize your virtual keyboard, check out the main [simple-keyboard re
 - [N'ko](https://hodgef.com/simple-keyboard/demos/?d=nko) - by [kjitteh](https://github.com/kjitteh)
 - [Norwegian](https://hodgef.com/simple-keyboard/demos/?d=norwegian) - by [Prakriti Tiwari](https://github.com/prakriti89)
 - [Odia](https://hodgef.com/simple-keyboard/demos/?d=odia) - by [Kuldeep Kumar](https://github.com/sonukuldeep)
+- [Pashto Phonetic](https://hodgef.com/simple-keyboard/demos/?d=pashto-phonetic) - by [Hanif Rahman](https://github.com/ihanif)
 - [Polish](https://hodgef.com/simple-keyboard/demos/?d=polish) - by [maciej-sielski](https://github.com/maciej-sielski)
 - [Punjabi](https://hodgef.com/simple-keyboard/demos/?d=punjabi) - by [Kuldeep Kumar](https://github.com/sonukuldeep)
 - [Russian](https://hodgef.com/simple-keyboard/demos/?d=russian)
