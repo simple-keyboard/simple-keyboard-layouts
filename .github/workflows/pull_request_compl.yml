@@ -43,4 +43,4 @@ jobs:
         with:
           pull-request-number: ${{github.event.number}}
           comment: "Thank you for contribution, but we are no longer accepting new or edited layouts. Please file an issue if you find a bug in the existing layouts."
-          delete-branch: true
+          delete-branch: false
