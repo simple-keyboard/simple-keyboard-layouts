@@ -3,7 +3,7 @@ import Layouts from './Layouts';
 import Keyboard from 'simple-keyboard';
 
 it('Keyboard and layout renders without crashing', () => {
-  const layouts = new Layouts().get();
+  const layouts = new Layouts().get() as any;
 
   Object.keys(layouts).forEach((layoutId: string) => {
     const layoutsItem: LayoutItem = layouts[layoutId];

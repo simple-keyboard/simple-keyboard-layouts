@@ -8,7 +8,6 @@
       "sourceMap": true,
       "declaration": true,
       "emitDeclarationOnly": true,
-      "suppressImplicitAnyIndexErrors": true,
       "lib": ["es2018", "dom"],
       "moduleResolution": "node",
       "strict": true

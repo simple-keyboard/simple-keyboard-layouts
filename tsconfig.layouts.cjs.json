@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+      "outDir": "build/commonjs",
+      "module": "commonjs",
+      "target": "es5",
+      "declaration": false,
+      "lib": ["es2018", "dom"],
+      "moduleResolution": "node",
+    },
+    "include": ["src/lib/layouts"]
+}

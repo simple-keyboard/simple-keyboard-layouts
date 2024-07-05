@@ -1,13 +1,14 @@
 {
   "name": "simple-keyboard-layouts",
-  "version": "3.3.113",
+  "version": "3.4.0",
   "description": "Layouts module for simple-keyboard",
   "main": "build/index.js",
   "scripts": {
     "start": "webpack serve --config webpack.config.demo.js",
-    "build": "webpack && npm run build-esm && tsc && npm run buildLayouts",
+    "build": "webpack && npm run build-esm && tsc && npm run buildLayouts && npm run buildLayoutsNode",
     "build-esm": "webpack --config webpack.config.build_esm.js",
     "buildLayouts": "tsc --p tsconfig.layouts.json",
+    "buildLayoutsNode": "tsc --p tsconfig.layouts.cjs.json",
     "test": "jest --silent",
     "coverage": "npm run test -- --coverage",
     "prepare": "npm run build",
