@@ -64,7 +64,7 @@
     "mini-css-extract-plugin": "^2.8.1",
     "simple-keyboard": "3.8.22",
     "style-loader": "^4.0.0",
-    "terser-webpack-plugin": "^5.3.10",
+    "terser-webpack-plugin": "^5.3.11",
     "typescript": "^5.7.2",
     "uglify-es": "^3.3.9",
     "url-loader": "^4.1.1",
