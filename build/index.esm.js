@@ -1,6 +1,6 @@
 /*!
  * 
- *   simple-keyboard-layouts v3.4.99 (ESM)
+ *   simple-keyboard-layouts v3.4.100 (ESM)
  *   https://github.com/hodgef/simple-keyboard-layouts
  *
  *   Copyright (c) Francisco Hodge (https://github.com/hodgef) and project contributors.
