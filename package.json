@@ -65,7 +65,7 @@
     "simple-keyboard": "3.8.71",
     "style-loader": "^4.0.0",
     "terser-webpack-plugin": "^5.3.14",
-    "typescript": "^5.8.3",
+    "typescript": "^5.9.2",
     "uglify-es": "^3.3.9",
     "url-loader": "^4.1.1",
     "webpack": "^5.101.0",
