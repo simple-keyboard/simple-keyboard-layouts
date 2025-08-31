@@ -54,7 +54,7 @@ To fully customize your virtual keyboard, check out the main [simple-keyboard re
 - [Polish](https://hodgef.com/simple-keyboard/demos/?d=polish) - by [maciej-sielski](https://github.com/maciej-sielski)
 - [Punjabi](https://hodgef.com/simple-keyboard/demos/?d=punjabi) - by [Kuldeep Kumar](https://github.com/sonukuldeep)
 - [Russian](https://hodgef.com/simple-keyboard/demos/?d=russian)
-- [Russian Old](https://hodgef.com/simple-keyboard/demos/?d=russian-old) - by [maxshuty](https://github.com/maxshuty)
+- [Russian Old](https://hodgef.com/simple-keyboard/demos/?d=russianOld) - by [maxshuty](https://github.com/maxshuty)
 - [Sindhi](https://hodgef.com/simple-keyboard/demos/?d=sindhi) - by [Salman Sattar](https://github.com/salman65)
 - [Spanish](https://hodgef.com/simple-keyboard/demos/?d=spanish)
 - [Swedish](https://hodgef.com/simple-keyboard/demos/?d=swedish) - by [wpressdev](https://github.com/wpressdev)
@@ -63,7 +63,7 @@ To fully customize your virtual keyboard, check out the main [simple-keyboard re
 - [Turkish](https://hodgef.com/simple-keyboard/demos/?d=turkish) - by [Caglar Turali](https://github.com/caglarturali)
 - [Ukrainian](https://hodgef.com/simple-keyboard/demos/?d=ukrainian) - by [boomsya](https://github.com/boomsya)
 - [Urdu](https://hodgef.com/simple-keyboard/demos/?d=urdu) - by [Salman Sattar](https://github.com/salman65)
-- [Urdu Standard](https://hodgef.com/simple-keyboard/demos/?d=urdu-standard) - by [Umara Iftikhar](https://github.com/imaneumma)
+- [Urdu Standard](https://hodgef.com/simple-keyboard/demos/?d=urduStandard) - by [Umara Iftikhar](https://github.com/imaneumma)
 - [Uyghur](https://hodgef.com/simple-keyboard/demos/?d=uyghur) - by [Ailiniyazi Maimaiti](https://github.com/memeteli)
 
 ## 🌟 Contributing
