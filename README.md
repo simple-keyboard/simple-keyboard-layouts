@@ -20,8 +20,8 @@ To fully customize your virtual keyboard, check out the main [simple-keyboard re
 <blockquote><a href="https://github.com/hodgef/simple-keyboard-layouts/tree/master/src/lib/layouts">Click here to browse the layout files</a></blockquote>
 
 - [Arabic](https://hodgef.com/simple-keyboard/demos/?d=arabic)
-- [armenianEastern](https://hodgef.com/simple-keyboard/demos/?d=armenianEastern) - by [vidman22](https://github.com/vidman22)
-- [armenianWestern](https://hodgef.com/simple-keyboard/demos/?d=armenianWestern) - by [vidman22](https://github.com/vidman22)
+- [Armenian Eastern](https://hodgef.com/simple-keyboard/demos/?d=armenianEastern) - by [vidman22](https://github.com/vidman22)
+- [Armenian Western](https://hodgef.com/simple-keyboard/demos/?d=armenianWestern) - by [vidman22](https://github.com/vidman22)
 - [Assamese](https://hodgef.com/simple-keyboard/demos/?d=assamese) - by [Akhilesh](https://github.com/akki2825)
 - [Balochi](https://hodgef.com/simple-keyboard/demos/?d=balochi) - by [umairayub79](https://github.com/umairayub79)
 - [Belarusian](https://hodgef.com/simple-keyboard/demos/?d=belarusian) - by [maxshuty](https://github.com/maxshuty)
