@@ -94,7 +94,7 @@ class SimpleKeyboardLayouts {
     ukrainian,
     urdu,
     urduStandard,
-    uyghur,
+    uyghur
   };
 
   public get = (layout?: string): LayoutItem | LayoutItemObj =>
