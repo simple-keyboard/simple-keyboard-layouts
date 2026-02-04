@@ -16,11 +16,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hodgef/simple-keyboard-layouts"
+    "url": "https://github.com/simple-keyboard/simple-keyboard-layouts"
   },
   "author": "Francisco Hodge <hello@franciscohodge.com> (https://github.com/hodgef)",
   "bugs": {
-    "url": "https://github.com/hodgef/simple-keyboard-layouts/issues"
+    "url": "https://github.com/simple-keyboard/simple-keyboard-layouts/issues"
   },
   "homepage": "https://hodgef.com/simple-keyboard/modules/simple-keyboard-layouts/",
   "keywords": [
