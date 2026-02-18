@@ -62,7 +62,7 @@
     "html-webpack-plugin": "^5.6.6",
     "jest": "^26.6.3",
     "mini-css-extract-plugin": "^2.10.0",
-    "simple-keyboard": "3.8.110",
+    "simple-keyboard": "3.8.111",
     "style-loader": "^4.0.0",
     "terser-webpack-plugin": "^5.3.16",
     "typescript": "^5.9.3",
